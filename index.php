@@ -50,28 +50,40 @@ $i = 1;
 <div id="s<?php echo $i;
 $i++ ?>">
     <div class="container">
-        <div class="title text-center">
+        <div class="title text-center vcenter">
             Identifique a universidade em todas as páginas - e no mesmo lugar
         </div>
-        <div class="">
-            Elementos comuns a todas as págnas devem estar sempre no mesmo lugar.
-            Exemplos: Logotipo, caixa de busca, menu principal.
+        <div class="col-md-12 text text-center">
+            <p>Elementos comuns a todas as págnas devem estar sempre no mesmo lugar.</p>
 
+            <p> Exemplos: Logotipo, caixa de busca, menu principal.</p>
         </div>
-    </div>
+        <div class="clear"></div>
+        <div class="col-xs-6 ">
+            <img src="imgs/ph1.jpg" class="img-responsive center-block" alt="Placeholder"/>
 
-</div>
-
-
-<div id="s<?php echo $i;
-$i++ ?>">
-    <div class="container">
-        <div class="title text-center">
-            Página inicial clara
+            <div class="legenda-certo text-center">
+                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Certo!
+            </div>
         </div>
-        <div class=""> A página inicial do portal deve deixar claro o que é o sítio, seu objetivo e as informações e
-            serviços nele disponíveis.
+
+        <div class="col-xs-6 ">
+            <img src="imgs/ph1.jpg" class="img-responsive center-block" alt="Placeholder"/>
+
+            <div class="legenda-errado text-center">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Errado :(
+            </div>
         </div>
+
+        <!--<div class="text col-md-5 text-right vcenter">
+            <p>Elementos comuns a todas as págnas devem estar sempre no mesmo lugar.</p>
+            <p> Exemplos: Logotipo, caixa de busca, menu principal.</p>
+        </div>
+        <div class="col-md-5 ">
+            <img src="imgs/ph1.jpg" class="img-responsive" alt="Placeholder"/>
+        </div>
+            -->
+        <div class="clear"></div>
     </div>
 
 </div>
@@ -82,43 +94,140 @@ $i++ ?>">
         <div class="title text-center">
             Lista de abreviações comuns
         </div>
-        <div class="">
-            Fornecer lista de abreviações comuns encontradas no site, no campus e na convivência universitária
+        <div class="text col-md-5 col-md-offset-1 vcenter">
+            Fornecer lista de abreviações comuns encontradas no site, no campus e na convivência universitária.
         </div>
+
+        <div class="col-md-5 vcenter ">
+            <img src="imgs/pc2.png" alt="Place Holder 2 " class="img-responsive center-block"/>
+        </div>
+
+        <div class="clear"></div>
     </div>
 </div>
 
 <div id="s<?php echo $i;
 $i++ ?>">
     <div class="container">
-        <div class="title text-center">BREADCUMBS</div>
-        <div class="">O usuário deve saber onde ele está e como fez para chegar ali. Utilize links em forma hierárquica,
-            formando o chamado “migalha de pão” (breadcumbs)
-            Exemplo: Você está em Página Inicial -> Cursos -> Ciência da Computação
+        <div class="title text-center">Breadcumbs, migalha de pão</div>
+        <div class="text">
+            <p>O usuário deve saber onde ele está e como fez para chegar ali. Utilize links em forma hierárquica,
+                formando o chamado “migalha de pão” (breadcumbs)</p>
+
+            <p><strong>Exemplo:</strong>
+
+            </p>
+
+            <div class="well">
+                <p> Você está em <u>Página Inicial</u> -> <u>Cursos</u> -> <u>Ciência da Computação</u></p>
+            </div>
         </div>
+        <div class="clear"></div>
     </div>
 </div>
+
+<?php /*
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            Página inicial clara
+        </div>
+        <div class="text"> A página inicial do portal deve deixar claro o que é o sítio, seu objetivo e as informações e
+            serviços nele disponíveis.
+        </div>
+    </div>
+
+</div>
+*/ ?>
+
+
 
 <div id="s<?php echo $i;
 $i++ ?>">
     <div class="container">
-        <div class="title text-center">BARRA DE ACESSIBILIDADE com atalhos do teclado
+        <div class="title text-center">
+            Barra de Acessibilidade com atalhos do teclado
         </div>
-        <div class="">O sítio deve possuir uma barra de acessibilidade com os seguintes itens: Alto contraste, Atalhos
-            (para menu, conteúdo e busca) e Acessibilidade (link página com os recursos de acessbilidades do sítio);
+        <div class="text">
+            <p>O sítio deve possuir uma <strong>barra de acessibilidade</strong> com os seguintes itens: Alto contraste,
+                Atalhos
+                (para menu, conteúdo e busca) e Acessibilidade (link página com os recursos de acessbilidades do sítio);
+                Se o sítio for responsivo e/ou possuir versão mobile, pode-se ocultar os atalhos de teclado, mas as
+                funções <strong>Acessibilidade</strong> e <strong>Alto Contraste</strong> devem permanecer.
+            </p>
+
+            <p><strong>Exemplo:</strong></p>
         </div>
+
+        <div id="accessibility-bar" class="col-md-12">
+
+            <ul id="accessibility" class="hidden-sm hidden-xs">
+                <li>
+                    <a accesskey="1" href="#conteudo-principal"
+                       id="link-conteudo">
+                        Ir para o conteúdo
+                        <span>1</span>
+                    </a>
+                </li>
+                <li>
+                    <a accesskey="2" href="#left-menu"
+                       id="link-navegacao">
+                        Ir para o menu
+                        <span>2</span>
+                    </a>
+                </li>
+                <li>
+                    <a accesskey="3" href="#SearchableText" id="link-buscar">
+                        Ir para a busca
+                        <span>3</span>
+                    </a>
+                </li>
+                <li class="last-item">
+                    <a accesskey="3" href="#afooter"
+                       id="link-rodape">
+                        Ir para o rodapé
+                        <span> 4 </span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul id="portal-siteactions">
+                <li id="siteaction-accessibility">
+                    <a href="#" title="Acessibilidade" accesskey="5">Acessibilidade</a>
+                </li>
+                <li id="siteaction-contraste">
+                    <a href="#" title="Alto Contraste" accesskey="6">Alto Contraste</a>
+                </li>
+            </ul>
+
+
+        </div>
+        <div class="clear"></div>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+            <span class="glyphicon glyphicon-console" aria-hidden="true"></span> Veja o código do exemplo acima
+        </button>
+
+        <div class="collapse" id="collapseExample">
+
+            <script src="https://gist.github.com/lucassandes/031f4565a09ad67e905c.js"></script>
+
+        </div>
+
     </div>
+    <div class="clear"></div>
 </div>
 
 <div id="s<?php echo $i;
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            alto contraste / Folha de estilo com alto contraste
+            Alto Contraste / Folha de estilo com alto contraste
 
         </div>
 
-        <div class="">
+        <div class="text col-md-6">
             O sítio deve possuir a funcionalidade de folha de estilo com alto contraste disponível no menu de
             acessibilidade.
             <ul>
@@ -130,7 +239,14 @@ $i++ ?>">
             </ul>
 
         </div>
+        <div class="col-md-6">
+            <img src="imgs/ph1.jpg" alt="" class="img-responsive center-block"/>
+            <div class="legenda-errado text-center">
+                <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Exemplo Folha de Estilo com Alto Contraste
+            </div>
+        </div>
     </div>
+    <div class="clear"></div>
 
 </div>
 
@@ -138,17 +254,19 @@ $i++ ?>">
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            RESPONSIVIDADE ou aumentar fonte / Permitir redimensionamento sem perda de funcionalidade / Não usar
-            expressões como “compatível com” “melhor visto na resolução...”
+            Responsividade / Permitir redimensionamento sem perda de funcionalidade
 
         </div>
 
-        <div class="">
-            O sítio deve ser responsivo, permitindo o redimensionamento da tela para até 200% sem perda de
+        <div class="text">
+            <p>O sítio deve ser responsivo, permitindo o redimensionamento da tela para até 200% sem perda de
             funcionalidade. Ao redimensionar a página, não deve aparecer a barra horizontal do navegador. Junto a isso,
-            as páginas devem funcionar corretamente independente de plataformas ou navegadores.
+            as páginas devem funcionar corretamente independente de plataformas ou navegadores.</p>
+            <p>Não usar
+                expressões como “compatível com” “melhor visto na resolução...”</p>
         </div>
     </div>
+    <div class="clear"></div>
 
 </div>
 
@@ -159,7 +277,7 @@ $i++ ?>">
             Não utilizar apenas cor ou outras características sensoriais para diferenciar elementos
         </div>
 
-        <div class="">
+        <div class="text">
             Apenas cor, tamanho, forma, som ou outras características sensoriais não devem ser a única maneira de
             diferenciar elementos.
 
@@ -174,7 +292,7 @@ $i++ ?>">
             Esquema consistente de cores e fontes.
         </div>
 
-        <div class="">
+        <div class="text">
 
             O sítio deve possuir uma harmonia consistente de cores e tipos de fontes em todas as páginas. Deve haver um
             padrão.
