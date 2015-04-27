@@ -241,8 +241,10 @@ $i++ ?>">
         </div>
         <div class="col-md-6">
             <img src="imgs/ph1.jpg" alt="" class="img-responsive center-block"/>
+
             <div class="legenda-errado text-center">
-                <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Exemplo Folha de Estilo com Alto Contraste
+                <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Exemplo Folha de Estilo com Alto
+                Contraste
             </div>
         </div>
     </div>
@@ -260,8 +262,10 @@ $i++ ?>">
 
         <div class="text">
             <p>O sítio deve ser responsivo, permitindo o redimensionamento da tela para até 200% sem perda de
-            funcionalidade. Ao redimensionar a página, não deve aparecer a barra horizontal do navegador. Junto a isso,
-            as páginas devem funcionar corretamente independente de plataformas ou navegadores.</p>
+                funcionalidade. Ao redimensionar a página, não deve aparecer a barra horizontal do navegador. Junto a
+                isso,
+                as páginas devem funcionar corretamente independente de plataformas ou navegadores.</p>
+
             <p>Não usar
                 expressões como “compatível com” “melhor visto na resolução...”</p>
         </div>
@@ -295,6 +299,7 @@ $i++ ?>">
         <div class="text">
 
             O sítio deve possuir uma harmonia consistente de cores e tipos de fontes em todas as páginas. Deve haver um
+            padrão. Subsites do sítio principal ou sítios de departamentos da Universidade também devem adotar o mesmo
             padrão.
         </div>
     </div>
@@ -308,13 +313,14 @@ $i++ ?>">
     <div class="container">
         <div class="title text-center">
 
-            MAPA DE SITE
+            Mapa de Site
         </div>
 
-        <div class="">
+        <div class="text text-center">
             O sítio deve apresentar um Mapa de Site, em forma de lista hierárquica contento todas as páginas do sítio
         </div>
     </div>
+    <div class="clear"></div>
 
 </div>
 
@@ -322,22 +328,267 @@ $i++ ?>">
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            BUSCA / A ferramenta de busca presente em todas as páginas
+            Busca
         </div>
 
-        <div class="">
+        <div class="text col-md-5 vcenter">
             O sítio deve possuir um campo de busca. Na falta de resultados da busca, deve ser fornecido links com as
             páginas mais acessadas e/ou mais importantes. Além disso, a caixa de busca deve estar presente em todas as
             páginas.
         </div>
+        <div class="col-md-5 vcenter  col-md-offset-1"><img src="imgs/lupa.png" alt="" class="img-responsive"/></div>
     </div>
+    <div class="clear"></div>
+
+</div>
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            Etiqueta nas imagens
+        </div>
+
+        <div class="text ">
+            Para facilitar a compreensão de usuários com deficiência visual, uma descrição para as imagens deve ser
+            fornecida, utilizando-se do atributo “alt”
+
+        </div>
+        <div class="text">
+            <p>Tight pants next level keffiyeh <a href="#" data-toggle="tooltip" title=""
+                                                  data-original-title="Default tooltip">you probably</a> haven't heard
+                of them. Photo booth beard raw denim letterpress vegan messenger bag stumptown. Farm-to-table seitan,
+                mcsweeney's fixie sustainable quinoa 8-bit american apparel <a href="#" data-toggle="tooltip"
+                                                                               title="Another tooltip">have a</a> terry
+                richardson vinyl chambray. Beard stumptown, cardigans banh mi lomo thundercats. Tofu biodiesel
+                williamsburg marfa, four loko mcsweeney's cleanse vegan chambray. A really ironic artisan <a href="#"
+                                                                                                             data-toggle="tooltip"
+                                                                                                             title=""
+                                                                                                             data-original-title="Another one here too">whatever
+                    keytar</a>, scenester farm-to-table banksy Austin <a href="#" data-toggle="tooltip"
+                                                                         title="The last tip!">twitter handle</a>
+                freegan cred raw denim single-origin coffee viral.</p>
+            <img src="imgs/placeholder.png" alt="Imagem de exemplo com um fundo cinza." class="img-responsive"
+                 data-toggle="tooltip" data-placement="top" title="Tooltip on top"/>
+        </div>
+
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            Evitar conteúdo textual em imagens.
+        </div>
+
+        <div class="text ">
+            Evitar conteúdo textual em imagens.
+
+        </div>
+
+    </div>
+    <div class="clear"></div>
 
 </div>
 
 
+<!-- ERROS -->
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            As mensagens de erro devem ser sucintas e explicativas
+        </div>
+
+        <div class="text ">
+            As mensagens de erro devem ser apresentadas de maneira clara. Evitar o uso de vocabulário técnico. Quando em
+            formulários, posicionar o cursos no local do erro para facilitar a correção e não limpar o conteúdo do
+            formulário inteiro por causa de um erro.
+        </div>
+
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            Páginas de conteúdo não encontrado ( erro 404)
+        </div>
+
+        <div class="text ">
+            Páginas de erro devem possuir links para a página inicial, de “Fale Conosco” e possuir um campo de busca
+            evidente
+        </div>
+
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            Dividir o texto em tópicos.
+        </div>
+
+        <div class="text ">
+            Textos na internet devem ser curtos, por isso divida os textos mais longos em pequenas unidades, pequenos
+            parágrafos ou listas para facilitar o entendimento do conteúdo da informação
+        </div>
+
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            Utilizar termos simples e claros como rótulos de menu.
+        </div>
+
+        <div class="text ">
+            Rótulos do menu devem ser de fácil compreensão, portanto deve-se evitar o uso de siglas, abreviações ou
+            termos técnicos e devem manter consistência textual com os títulos das páginas que se referem.
+        </div>
+
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            Usar Convenções
+        </div>
+
+        <div class="text ">
+            Utilize convenções comuns da internet, como por exemplo:
+            Links sublinhados;
+            Caixa de busca no canto superior direito;
+            Logotipo no canto superior esquerdo;
+            Logotipo funcionar como link para página inicial;
+
+        </div>
+
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            Teste rápido de tabulação
+        </div>
+
+        <div class="text ">
+            "Ordenar de forma lógica e intuitiva a leitura e tabulação"
+            O desenvolvedor deve navegar pelo sítio apenas pelo teclado (utilzando a tecla tab) afim de identificar se a
+            hierarquia das informações ta disposta de forma coerente
+
+        </div>
+
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            Nunca utilizar tabelas para diagramação
+        </div>
+
+        <div class="text ">
+            Tabelas devem ser utilizadas somente para dados tabulares, nunca para disposição de elementos do layout.
+
+        </div>
+
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+<!-------------------------------- -->
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            xx
+        </div>
+
+        <div class="text ">
+            Não utilizar formatos de arquivos abertos para edição (.doc, por ex), optar sempre pelo pdf.
+
+        </div>
+
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            xx
+        </div>
+
+        <div class="text ">
+            Facilite para os usuários a visualização de projetos e programas desenvolvidos na universidade
+
+        </div>
+
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            xx
+        </div>
+
+        <div class="text ">
+            Sempre fornecer conteúdo alternativo em HTML para grades horarias e demais documentos de interesse dos
+            alunos; - (recomendação supérfula: sempre fornecer documentos em formatos acessíveis, isto ´é, pdfs também
+            devem ter sua alternativa em HTML)
+        </div>
+
+    </div>
+    <div class="clear"></div>
+
+</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
 </body>
 </html>
