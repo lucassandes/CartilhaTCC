@@ -139,7 +139,8 @@ $i++ ?>">
     </div>
 
 </div>
-*/ ?>
+*/
+?>
 
 
 
@@ -331,12 +332,12 @@ $i++ ?>">
             Busca
         </div>
 
-        <div class="text col-md-5 vcenter">
+        <div class="text col-sm-5 vcenter">
             O sítio deve possuir um campo de busca. Na falta de resultados da busca, deve ser fornecido links com as
             páginas mais acessadas e/ou mais importantes. Além disso, a caixa de busca deve estar presente em todas as
             páginas.
         </div>
-        <div class="col-md-5 vcenter  col-md-offset-1"><img src="imgs/lupa.png" alt="" class="img-responsive"/></div>
+        <div class="col-sm-5 vcenter  col-sm-offset-1"><img src="imgs/lupa.png" alt="" class="img-responsive"/></div>
     </div>
     <div class="clear"></div>
 
@@ -348,28 +349,27 @@ $i++ ?>">
         <div class="title text-center">
             Etiqueta nas imagens
         </div>
+        <div class="text col-sm-5 vcenter col-md-offset-1">
 
-        <div class="text ">
-            Para facilitar a compreensão de usuários com deficiência visual, uma descrição para as imagens deve ser
-            fornecida, utilizando-se do atributo “alt”
+            <img src="imgs/placeholder.png" alt="Imagem de exemplo com um fundo cinza." class="img-responsive"
+                 data-toggle="tooltip" data-placement="bottom" title="Imagem de exemplo com um fundo cinza."/>
+        </div>
+
+
+        <div class="text col-sm-5 vcenter">
+            <p> Para facilitar a compreensão de usuários com deficiência visual, uma descrição para as imagens deve ser
+                fornecida, utilizando-se do atributo “alt”</p>
+
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#codigoImagem"
+                    aria-expanded="false" aria-controls="collapseExample">
+                <span class="glyphicon glyphicon-console" aria-hidden="true"></span> Veja o código do exemplo
+            </button>
 
         </div>
-        <div class="text">
-            <p>Tight pants next level keffiyeh <a href="#" data-toggle="tooltip" title=""
-                                                  data-original-title="Default tooltip">you probably</a> haven't heard
-                of them. Photo booth beard raw denim letterpress vegan messenger bag stumptown. Farm-to-table seitan,
-                mcsweeney's fixie sustainable quinoa 8-bit american apparel <a href="#" data-toggle="tooltip"
-                                                                               title="Another tooltip">have a</a> terry
-                richardson vinyl chambray. Beard stumptown, cardigans banh mi lomo thundercats. Tofu biodiesel
-                williamsburg marfa, four loko mcsweeney's cleanse vegan chambray. A really ironic artisan <a href="#"
-                                                                                                             data-toggle="tooltip"
-                                                                                                             title=""
-                                                                                                             data-original-title="Another one here too">whatever
-                    keytar</a>, scenester farm-to-table banksy Austin <a href="#" data-toggle="tooltip"
-                                                                         title="The last tip!">twitter handle</a>
-                freegan cred raw denim single-origin coffee viral.</p>
-            <img src="imgs/placeholder.png" alt="Imagem de exemplo com um fundo cinza." class="img-responsive"
-                 data-toggle="tooltip" data-placement="top" title="Tooltip on top"/>
+
+
+        <div class="collapse col-md-12" id="codigoImagem">
+            <script src="https://gist.github.com/lucassandes/1e141f608b45d2f6686a.js"></script>
         </div>
 
     </div>
@@ -384,11 +384,20 @@ $i++ ?>">
             Evitar conteúdo textual em imagens.
         </div>
 
-        <div class="text ">
-            Evitar conteúdo textual em imagens.
+        <div class="text col-sm-5 vcenter  col-sm-offset-1">
+            Conteúdo textual deve ser escrito no código. Textos em imagem dificultam a leitura e perdem qualidade no
+            redimensionamento. Além disso, não são lidos por mecanismos de busca nem por leitores de tela.
 
         </div>
 
+        <div class=" col-sm-5 vcenter">
+            <img src="imgs/text-imagem.png" class="img-responsive center-block" alt="Texto escrito na imagem" />
+
+            <div class="legenda legenda-fundo-escuro  text-center">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Não faça isso!
+            </div>
+
+        </div>
     </div>
     <div class="clear"></div>
 
@@ -405,6 +414,7 @@ $i++ ?>">
         </div>
 
         <div class="text ">
+
             As mensagens de erro devem ser apresentadas de maneira clara. Evitar o uso de vocabulário técnico. Quando em
             formulários, posicionar o cursos no local do erro para facilitar a correção e não limpar o conteúdo do
             formulário inteiro por causa de um erro.
@@ -419,10 +429,10 @@ $i++ ?>">
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            Páginas de conteúdo não encontrado ( erro 404)
+            Páginas de conteúdo não encontrado
         </div>
 
-        <div class="text ">
+        <div class="text">
             Páginas de erro devem possuir links para a página inicial, de “Fale Conosco” e possuir um campo de busca
             evidente
         </div>
