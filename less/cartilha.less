@@ -3,7 +3,7 @@ body {
   font-family: 'Droid Sans', 'Helvetica', 'Arial', sans-serif;
 }
 
-.lobster {
+  .lobster {
   font-family: 'Lobster', cursive;
 }
 
@@ -12,18 +12,199 @@ body {
 }
 .title {
   font-family: 'Lobster', cursive;
-  font-size: 40px;
-}
-#s1, #s3, #s5, #s7 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: black;
-  color: white;
-  min-height: 650px;
+  font-size: 70px;
+  line-height: 80px;
+  margin-top:20px;
+  margin-bottom: 50px;
 }
 
-#s2, #s4, #s6, {
-  background-color: grey;
-  color: black;
-  min-height: 650px;
+.clear {
+  clear: both;
+  height: 40px;
+}
+
+.text {
+  margin-bottom: 40px;
+}
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.legenda-certo, .legenda-errado {
+  font-family:  'Lobster', cursive;
+  font-size: 22px;
+}
+
+.legenda-certo {
+  color: @brand-success;
+}
+
+.legenda-errado {
+  color: @brand-danger;
+}
+
+.text {
+  font-size: 20px;
+}
+#s1 {
+  background-color: @light-bg;
+
+  .title {
+    color: @primary-color;
+  }
+
+  .text {
+    color: @dark-gray;
+  }
+}
+
+#s2 {
+  background-color:@cold ;
+  .title {
+    color: white;
+  }
+
+  .text {
+    color: white;
+  }
+}
+
+#s3 {
+  background-color: @light-bg;
+
+  .title {
+    color: @primary-color;
+  }
+
+  .text {
+    color: @dark-gray;
+  }
+}
+
+#s4 {
+  background-color: @primary-color;
+
+  .title {
+    color: white;
+  }
+
+  .text {
+    color: @light-bg;
+  }
+
+  #accessibility-bar {
+    height: 3em;
+    background-color: @light-bg;
+    font-size: 14px;
+    //border-radius: 4px;
+
+    ul {
+      list-style: none;
+      -webkit-padding-start: 0px;
+
+      li {
+        display: inline;
+        vertical-align: middle;
+
+        a {
+          color: @gray-dark;
+          padding: 10px 1em 0 0;
+          display: inline-block;
+          text-decoration: none;
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+        span {
+          background-color: @dark-gray;
+          color:@light-bg;
+          padding: 0px 5px;
+        }
+      }
+
+    }
+    #portal-siteactions {
+
+      text-align: center;
+      text-transform: uppercase;
+      a {
+        padding: 10px 1em 0 0;
+      }
+    }
+
+  }
+}
+
+@media (min-width: @screen-md-min) {
+  #s4 {
+    #accessibility-bar {
+      #accessibility {
+        float: left;
+        display: block;
+        width: 65%;
+      }
+      #portal-siteactions {
+        float: right;
+        display: block;
+        width: 35%;
+        text-align: right;
+      }
+    }
+  }
+}
+
+#s5 {
+
+}
+
+#s6:extend(#s1 all) {
+
+}
+
+#s7:extend(#s2 all) {
+
+}
+
+#s8 {
+  background-color: @dark-gray;
+
+  .title {
+    color: white;
+  }
+
+  .text {
+    color: @light-bg;
+  }
+}
+
+#s9{
+
+  background-image: url("../imgs/site-map.png");
+  background-repeat: repeat;
+  .title {
+    color: @dark-gray;
+  }
+
+  .text {
+    color: @dark-gray;
+  }
+
+}
+#s10 {
+
+}
+
+#s11 {
+  background-color: @light-bg;
+
+  .title {
+    color: @primary-color;
+  }
+
+  .text {
+    color: @dark-gray;
+  }
 }
