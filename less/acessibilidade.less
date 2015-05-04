@@ -1,0 +1,43 @@
+
+@amarelo: #FFF333;
+body {
+  background: black;
+}
+
+
+a {
+  color: @amarelo;
+}
+
+.title, p, .text {
+  color: white;
+}
+
+.legenda-certo, .legenda-errado, .legenda-fundo-escuro {
+  color: white;
+}
+
+.btn-primary {
+  background-color: black;
+  border: 1px solid white;
+  color: @amarelo;
+  &:hover{
+    text-decoration: underline;
+    background-color: black;
+    color: @amarelo;
+    border-color: @amarelo;
+  }
+}
+.sessoes-acessiveis(30);
+
+.sessoes-acessiveis(@n, @i: 1) when (@i =< @n) {
+  #s@{i} {
+    background: black;
+    border-bottom: 1px solid white;
+    .title, .text {
+      color: white;
+    }
+
+  }
+  .sessoes-acessiveis(@n, (@i + 1));
+}

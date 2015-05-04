@@ -13,12 +13,16 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
+    <!-- Acessibilidade -->
+    <link id="pagestyle" href="css/default.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 <body>
 
@@ -27,12 +31,136 @@
 
 </header>
 <div id="titulo">
+
     <div class="container">
-        <h1 class="">
-            27 Recomendações para o desenvolvimento de Sítios de Universidades Públicas Acessíveis e com boa Usabilidade
+
+        <h1 class="text-center">
+            <span>2X</span> Recomendações para o desenvolvimento de Sítios de Universidades Públicas Acessíveis e com
+            boa Usabilidade
         </h1>
+
+        <h2 class="text-center">Trabalho de Conclusão de Curso de Lucas Vinícius Maciel Sandes</h2>
+
+        <h3 class="text-center">Universidade Federal de São Paulo - UNIFESP</h3>
+        <h4 class="text-center">Bacharelado em Ciência da Computação - 2015</h4>
     </div>
 </div>
+
+<div id="acessibilidade-usabilidade">
+
+    <div class="container">
+        <div class="title text-center">
+            Titulo da sessão
+        </div>
+        <div class="col-md-5 col-md-offset-1 box">
+
+            <div class="title text-center">
+                Acessibilidade?
+            </div>
+            <div class="text">
+                <p>
+                    O termo Acessibilidade é empregado, de maneira geral, para carecterizar o acesso integral
+                    de qualquer pessoa a todos os benefícios da vida social, inclusive o da Internet.
+                </p>
+
+
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detalhes-acessibilidade"
+                        aria-expanded="false" aria-controls="detalhes-acessibilidade">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Mais detalhes
+                </button>
+
+                <div class="collapse well" id="detalhes-acessibilidade">
+                    <p class="no-padding-bottom">
+                        <strong>Governo Eletrônico - eGov</strong>
+                    </p>
+                    <p class="no-padding-bottom">O eGov desenvolve uma série de programas para democratizar o acesso a informação e
+                        auxiliar, de maneira teórica e prática, o desenvolvimento de aplicações públicas</p>
+                    <p class="no-padding-bottom"><strong>Legislação</strong></p>
+                    <p class="no-padding-bottom">O decreto 5.296 de 2 de dezembro de 2004 torna obrigatória a acessibilidade em sítios do poder público/do governo. Deste decreto, destaca-se o seguinte trecho:</p>
+                    <p class="citacao">Art. 8o Para os fins de acessibilidade, considera-se:<br/>
+                        I - acessibilidade: condição para utilização, com segurança e autonomia, total
+                        ou assistida, dos espaços, mobiliários e equipamentos urbanos, das edifica-
+                        ções, dos serviços de transporte e dos dispositivos, sistemas e meios de comunicação
+                        e informação, por pessoa portadora de deficiência ou com mobilidade
+                        reduzida;<br/>
+                        II - barreiras: qualquer entrave ou obstáculo que limite ou impeça o acesso, a
+                        liberdade de movimento, a circulação com segurança e a possibilidade de as
+                        pessoas se comunicarem ou terem acesso à informação, classificadas em:
+                        (...)<br/>
+                        d) barreiras nas comunicações e informações: qualquer entrave ou obstáculo
+                        que dificulte ou impossibilite a expressão ou o recebimento de mensagens por
+                        intermédio dos dispositivos, meios ou sistemas de comunicação, sejam ou não
+                        de massa, bem como aqueles que dificultem ou impossibilitem o acesso à informação;
+                        (...)<br/>
+                        Art. 47. No prazo de até doze meses a contar da data de publicação deste
+                        Decreto, será obrigatória a acessibilidade nos portais e sítios eletrônicos da
+                        administração pública na rede mundial de computadores (internet), para o uso
+                        das pessoas portadoras de deficiência visual, garantindo-lhes o pleno acesso às
+                        informações disponíveis.(BRASIL, 2004)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-5 col-md-offset-1 box">
+            <div class="title text-center">
+                Usabilidade?
+            </div>
+
+            <div class="text">
+                <p>
+                    O termo Usabilidade é frequêntemente associado à facilidade que um produto pode ser utilizado.
+                </p>
+
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detalhes-usabilidade"
+                        aria-expanded="false" aria-controls="detalhes-usabilidade">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Mais detalhes
+                </button>
+
+                <div class="collapse well" id="detalhes-usabilidade">
+                    <p><strong>Nielsen</strong> (1994) define <strong>usabilidade</strong> como um conjunto de atributos
+                        que qualificam
+                        quão bem uma pessoa consegue interagir com um sistema interativo</p>
+                    <ul>
+                        <li><strong>Facilidade de aprendizado:</strong> O sistema deve ser fácil de aprender de maneira
+                            que, rapidamente,
+                            seja possível obter algum resultado do mesmo.
+                        </li>
+                        <li><strong>Facilidade de recordação:</strong> O sistema deve ser fácil de usar, a ponto de um
+                            usuário casual
+                            conseguir utilizar o sistema após um período de tempo sem ter que reaprender a utilizá-lo.
+                        </li>
+                        <li><strong>Eficiência:</strong> O sistema deve ser eficiente, isto é, uma vez que o usuário
+                            aprendeu a utilizá-
+                            lo, ele deve ser capaz de atingir altos nívels de produtividade na execução de suas tarefas.
+                        </li>
+                        <li><strong>Segurança no uso:</strong> O sistema deve ter uma baixa taxa de erros, de maneira
+                            que, caso o
+                            usuário cometa algum erro, este deve ser facilmente recuperável. Erros catastróficos não
+                            devem ocorrrer.
+                        </li>
+                        <li><strong>Satisfação do usuário:</strong> O sistema deve ser agradável de usar, de modo que os
+                            usuários
+                            estejam subjetivamente satisfeitos ao usá-lo. O sistema deve satisfazer suas necessidades
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <div class="text text-center bold objetivo">
+                Esse infográfico foi criado com o objetivo de auxiliar e facilitar o desenvolvimento de sítios
+                eletrônicos
+                de universidades públicas brasileiras.
+            </div>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+</div>
+
+
 <!--
 model
 <div id="s<?php echo $i;
@@ -125,23 +253,6 @@ $i++ ?>">
         <div class="clear"></div>
     </div>
 </div>
-
-<?php /*
-<div id="s<?php echo $i;
-$i++ ?>">
-    <div class="container">
-        <div class="title text-center">
-            Página inicial clara
-        </div>
-        <div class="text"> A página inicial do portal deve deixar claro o que é o sítio, seu objetivo e as informações e
-            serviços nele disponíveis.
-        </div>
-    </div>
-
-</div>
-*/
-?>
-
 
 
 <div id="s<?php echo $i;
@@ -238,6 +349,11 @@ $i++ ?>">
                 <li> Ícones: Devem ser brancos;</li>
                 <li> Linhas e contornos: Devem ser brancos.</li>
             </ul>
+            <br/>
+            <button onclick="swapStyleSheet('css/acessibilidade.css')" class="btn btn-primary" type="button">
+                <span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Veja exemplo ao vivo! Alto contraste
+            </button>
+
 
         </div>
         <div class="col-md-6">
@@ -391,7 +507,7 @@ $i++ ?>">
         </div>
 
         <div class=" col-sm-5 vcenter">
-            <img src="imgs/text-imagem.png" class="img-responsive center-block" alt="Texto escrito na imagem" />
+            <img src="imgs/text-imagem.png" class="img-responsive center-block" alt="Texto escrito na imagem"/>
 
             <div class="legenda legenda-fundo-escuro  text-center">
                 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Não faça isso!
@@ -454,6 +570,21 @@ $i++ ?>">
             Textos na internet devem ser curtos, por isso divida os textos mais longos em pequenas unidades, pequenos
             parágrafos ou listas para facilitar o entendimento do conteúdo da informação
         </div>
+        <div class="col-xs-6 ">
+            <img src="imgs/ph1.jpg" class="img-responsive center-block" alt="Placeholder"/>
+
+            <div class="legenda-certo text-center">
+                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Certo!
+            </div>
+        </div>
+
+        <div class="col-xs-6 ">
+            <img src="imgs/ph1.jpg" class="img-responsive center-block" alt="Placeholder"/>
+
+            <div class="legenda-errado text-center">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Errado :(
+            </div>
+        </div>
 
     </div>
     <div class="clear"></div>
@@ -514,6 +645,21 @@ $i++ ?>">
             hierarquia das informações ta disposta de forma coerente
 
         </div>
+        <div class="col-xs-6 ">
+            <img src="imgs/ph1.jpg" class="img-responsive center-block" alt="Placeholder"/>
+
+            <div class="legenda-certo text-center">
+                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Certo!
+            </div>
+        </div>
+
+        <div class="col-xs-6 ">
+            <img src="imgs/ph1.jpg" class="img-responsive center-block" alt="Placeholder"/>
+
+            <div class="legenda-errado text-center">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Errado :(
+            </div>
+        </div>
 
     </div>
     <div class="clear"></div>
@@ -543,11 +689,14 @@ $i++ ?>">
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            xx
+            Arquivos abertos
         </div>
 
         <div class="text ">
-            Não utilizar formatos de arquivos abertos para edição (.doc, por ex), optar sempre pelo pdf.
+            Não fornecer arquivos oficiais em formatos de arquivos abertos para edição (.doc, por ex), optar sempre pelo
+            pdf.
+            Ao utilizar arquivos em PDF, fornecer o conteúdo do documento em formatos acessíveis, isto é, pdfs também
+            devem ter sua alternativa em HTML
 
         </div>
 
@@ -561,11 +710,12 @@ $i++ ?>">
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            xx
+            Programas Universitários
         </div>
 
         <div class="text ">
-            Facilite para os usuários a visualização de projetos e programas desenvolvidos na universidade
+            Facilite para os usuários a visualização de projetos e programas desenvolvidos na universidade, como por
+            exemplo: Programas de extenção, Iniciação Científica e Programas de Estágio
 
         </div>
 
@@ -591,14 +741,86 @@ $i++ ?>">
     <div class="clear"></div>
 
 </div>
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            Página de Cursos
+        </div>
+
+        <div class="text ">
+            Na página de cursos deve haver uma pequena descrição do curso, o contato do Coordenador de Curso e a grade
+            horária .
+        </div>
+
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            Página inicial
+        </div>
+        <div class="text">
+            A página inicial deve evidenciar os cursos fornecidos pela universidades. Destaques e notícias princiais
+            devem estar antes da linha de dobra.
+
+        </div>
+    </div>
+
+</div>
+
+<div id="referencias">
+    <div class="container">
+        <div class="title bold">
+            Referências
+        </div>
+
+        <div class="text">
+            <ol>
+                <li>KATIE SHERWIN (2014). <a href="http://www.nngroup.com/articles/university-sites/" target="_blank">University
+                        Websites: Top 10 Design Guidelines</a></li>
+                <li>BRASIL (2014). <a href="http://emag.governoeletronico.gov.br/" target="_blank">eMAG - Modelo de
+                        Acessibilidade em Governo Eletrônico</a></li>
+                <li>BRASIL (2010). <a href="http://epwg.governoeletronico.gov.br/cartilha-usabilidade" target="_blank">
+                        Padrões Web em Governo Eletrônico e-PWG - Cartilha de Usabilidade.</a></li>
+            </ol>
+        </div>
+    </div>
+</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script>
+    var style = 0;
+    console.log(style);
+
+    //tooltip inicialization
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
     })
+
+    //toogle stylesheet
+    function swapStyleSheet(sheet) {
+
+        if (style == 0) {
+            document.getElementById('pagestyle').setAttribute('href', 'css/acessibilidade.css');
+            style = 1;
+            console.log(style);
+        }
+
+        else {
+            document.getElementById('pagestyle').setAttribute('href', 'css/default.css');
+            style = 0;
+            console.log(style);
+        }
+
+    }
 </script>
 </body>
 </html>
