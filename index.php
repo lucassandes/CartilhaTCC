@@ -182,7 +182,7 @@ $i++ ?>">
             Identifique a universidade em todas as páginas - e no mesmo lugar
         </div>
         <div class="col-md-12 text text-center">
-            <p>Elementos comuns a todas as págnas devem estar sempre no mesmo lugar.</p>
+            <p>Elementos comuns a todas as páginas devem estar sempre no mesmo lugar.</p>
 
             <p> Exemplos: Logotipo, caixa de busca, menu principal.</p>
         </div>
@@ -223,7 +223,7 @@ $i++ ?>">
             Lista de abreviações comuns
         </div>
         <div class="text col-md-5 col-md-offset-1 vcenter">
-            Fornecer lista de abreviações comuns encontradas no site, no campus e na convivência universitária.
+            Fornecer lista de abreviações e acrônimos comuns encontrados no site, no campus e na convivência universitária.
         </div>
 
         <div class="col-md-5 vcenter ">
@@ -240,7 +240,7 @@ $i++ ?>">
         <div class="title text-center">Breadcumbs, migalha de pão</div>
         <div class="text">
             <p>O usuário deve saber onde ele está e como fez para chegar ali. Utilize links em forma hierárquica,
-                formando o chamado “migalha de pão” (breadcumbs)</p>
+                formando o chamado “migalha de pão” (breadcumbs).</p>
 
             <p><strong>Exemplo:</strong>
 
@@ -276,27 +276,27 @@ $i++ ?>">
 
             <ul id="accessibility" class="hidden-sm hidden-xs">
                 <li>
-                    <a accesskey="1" href="#conteudo-principal"
+                    <a accesskey="1" href="javascript:void();"
                        id="link-conteudo">
                         Ir para o conteúdo
                         <span>1</span>
                     </a>
                 </li>
                 <li>
-                    <a accesskey="2" href="#left-menu"
+                    <a accesskey="2" href="javascript:void();"
                        id="link-navegacao">
                         Ir para o menu
                         <span>2</span>
                     </a>
                 </li>
                 <li>
-                    <a accesskey="3" href="#SearchableText" id="link-buscar">
+                    <a accesskey="3" href="javascript:void();" id="link-buscar">
                         Ir para a busca
                         <span>3</span>
                     </a>
                 </li>
                 <li class="last-item">
-                    <a accesskey="3" href="#afooter"
+                    <a accesskey="3" href="javascript:void();"
                        id="link-rodape">
                         Ir para o rodapé
                         <span> 4 </span>
@@ -306,10 +306,10 @@ $i++ ?>">
 
             <ul id="portal-siteactions">
                 <li id="siteaction-accessibility">
-                    <a href="#" title="Acessibilidade" accesskey="5">Acessibilidade</a>
+                    <a href="javascript:void();" title="Acessibilidade" accesskey="5">Acessibilidade</a>
                 </li>
                 <li id="siteaction-contraste">
-                    <a href="#" title="Alto Contraste" accesskey="6">Alto Contraste</a>
+                    <a href="javascript:swapStyleSheet()" title="Alto Contraste" accesskey="6">Alto Contraste</a>
                 </li>
             </ul>
 
@@ -350,7 +350,7 @@ $i++ ?>">
                 <li> Linhas e contornos: Devem ser brancos.</li>
             </ul>
             <br/>
-            <button onclick="swapStyleSheet('css/acessibilidade.css')" class="btn btn-primary" type="button">
+            <button onclick="swapStyleSheet()" class="btn btn-primary" type="button">
                 <span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Veja exemplo ao vivo! Alto contraste
             </button>
 
@@ -806,7 +806,7 @@ $i++ ?>">
     })
 
     //toogle stylesheet
-    function swapStyleSheet(sheet) {
+    function swapStyleSheet() {
 
         if (style == 0) {
             document.getElementById('pagestyle').setAttribute('href', 'css/acessibilidade.css');
