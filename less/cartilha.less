@@ -68,6 +68,30 @@ h2 {
   color: black;
 }
 
+.square {
+  display: inline-block;
+  min-height: 1em;
+  width: 1em;
+  font-size:14px ;
+  padding:5px;
+  border: 1px solid lighten(@dark-gray,10%);
+}
+.black-square {
+  background: black;
+  border-color: white;
+}
+.yellow-square {
+  background: @amarelo;
+
+  border-color: @gray;
+
+}
+
+.white-square {
+  background: white;
+  border: 1px solid @gray;
+}
+
 .text {
   font-size: 20px;
 }
@@ -240,7 +264,11 @@ h2 {
 }
 
 #s5 {
-
+  ul {
+    li {
+      list-style: none;
+    }
+  }
 }
 
 #s6:extend(#s1 all) {
@@ -248,8 +276,21 @@ h2 {
 }
 
 #s7:extend(#s2 all) {
+  .well {
+    p{
+      color: @dark-gray;
+    }
+
+    .btn {
+      min-width: 8em;
+      min-height: 3em;
+    }
+  }
+
 
 }
+
+
 
 #s8 {
   background-color: @dark-gray;

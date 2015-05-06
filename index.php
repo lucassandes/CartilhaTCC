@@ -64,7 +64,8 @@
                 </p>
 
 
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detalhes-acessibilidade"
+                <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#detalhes-acessibilidade"
                         aria-expanded="false" aria-controls="detalhes-acessibilidade">
                     <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Mais detalhes
                 </button>
@@ -73,10 +74,17 @@
                     <p class="no-padding-bottom">
                         <strong>Governo Eletrônico - eGov</strong>
                     </p>
-                    <p class="no-padding-bottom">O eGov desenvolve uma série de programas para democratizar o acesso a informação e
+
+                    <p class="no-padding-bottom">O eGov desenvolve uma série de programas para democratizar o acesso a
+                        informação e
                         auxiliar, de maneira teórica e prática, o desenvolvimento de aplicações públicas</p>
+
                     <p class="no-padding-bottom"><strong>Legislação</strong></p>
-                    <p class="no-padding-bottom">O decreto 5.296 de 2 de dezembro de 2004 torna obrigatória a acessibilidade em sítios do poder público/do governo. Deste decreto, destaca-se o seguinte trecho:</p>
+
+                    <p class="no-padding-bottom">O decreto 5.296 de 2 de dezembro de 2004 torna obrigatória a
+                        acessibilidade em sítios do poder público/do governo. Deste decreto, destaca-se o seguinte
+                        trecho:</p>
+
                     <p class="citacao">Art. 8o Para os fins de acessibilidade, considera-se:<br/>
                         I - acessibilidade: condição para utilização, com segurança e autonomia, total
                         ou assistida, dos espaços, mobiliários e equipamentos urbanos, das edifica-
@@ -223,7 +231,8 @@ $i++ ?>">
             Lista de abreviações comuns
         </div>
         <div class="text col-md-5 col-md-offset-1 vcenter">
-            Fornecer lista de abreviações e acrônimos comuns encontrados no site, no campus e na convivência universitária.
+            Fornecer lista de abreviações e acrônimos comuns encontrados no site, no campus e na convivência
+            universitária.
         </div>
 
         <div class="col-md-5 vcenter ">
@@ -262,10 +271,11 @@ $i++ ?>">
             Barra de Acessibilidade com atalhos do teclado
         </div>
         <div class="text">
-            <p>O sítio deve possuir uma <strong>barra de acessibilidade</strong> com os seguintes itens: Alto contraste,
-                Atalhos
-                (para menu, conteúdo e busca) e Acessibilidade (link página com os recursos de acessbilidades do sítio);
-                Se o sítio for responsivo e/ou possuir versão mobile, pode-se ocultar os atalhos de teclado, mas as
+            <p>O sítio deve possuir uma <strong>barra de acessibilidade</strong> com os seguintes itens:
+                Atalhos (para menu, conteúdo e busca), Alto contraste e Acessibilidade (link para a página com os
+                recursos de acessibilidades do sítio);
+                Se o sítio for responsivo e/ou possuir versão mobile, pode-se ocultar os atalhos de teclado nos
+                dispositivos de telas menores, mas as
                 funções <strong>Acessibilidade</strong> e <strong>Alto Contraste</strong> devem permanecer.
             </p>
 
@@ -341,13 +351,28 @@ $i++ ?>">
 
         <div class="text col-md-6">
             O sítio deve possuir a funcionalidade de folha de estilo com alto contraste disponível no menu de
-            acessibilidade.
+            acessibilidade. Regras para a folha de estilo de alto contraste:
             <ul>
-                <li>Cor de fundo: Deve ser utilizado preto (#000);</li>
-                <li>Cor do texto: Deve ser branco (#FFF);</li>
-                <li> Links: Sublinhados e de cor amarelo (#FFF333);</li>
-                <li> Ícones: Devem ser brancos;</li>
-                <li> Linhas e contornos: Devem ser brancos.</li>
+                <li>
+                    <div class="square black-square" data-toggle="tooltip" data-placement="top" title="#000000"></div>
+                    Cor de fundo: Deve ser utilizado preto
+                </li>
+                <li>
+                    <div class="square white-square" data-toggle="tooltip" data-placement="top" title="#FFFFFF"></div>
+                    Cor do texto: Deve ser branco
+                </li>
+                <li>
+                    <div class="square yellow-square" data-toggle="tooltip" data-placement="top" title="#FFF333"></div>
+                    Links: Sublinhados e de cor amarelo
+                </li>
+                <li>
+                    <div class="square white-square" data-toggle="tooltip" data-placement="top" title="#FFFFFF"></div>
+                    Ícones: Devem ser brancos
+                </li>
+                <li>
+                    <div class="square white-square" data-toggle="tooltip" data-placement="top" title="#FFFFFF"></div>
+                    Linhas e contornos: Devem ser brancos
+                </li>
             </ul>
             <br/>
             <button onclick="swapStyleSheet()" class="btn btn-primary" type="button">
@@ -385,6 +410,8 @@ $i++ ?>">
 
             <p>Não usar
                 expressões como “compatível com” “melhor visto na resolução...”</p>
+
+
         </div>
     </div>
     <div class="clear"></div>
@@ -399,11 +426,52 @@ $i++ ?>">
         </div>
 
         <div class="text">
-            Apenas cor, tamanho, forma, som ou outras características sensoriais não devem ser a única maneira de
-            diferenciar elementos.
+            <p>Apenas cor, tamanho, forma, som ou outras características sensoriais não devem ser a única maneira de
+                diferenciar elementos. Combine dois ou mais elementos.</p>
+
+            <p class="col-md-offset-1"><strong>Exemplo:</strong></p>
+
+            <div class="well col-md-4 col-md-offset-1">
+                <p>Clique no botão verde para continuar e no botão vermelho para cancelar</p>
+
+                <button type="button" class="btn btn-danger btn-lg">
+
+                </button>
+                <button type="button" class="btn btn btn-success btn-lg pull-right">
+
+                </button>
+                <div class="clear"></div>
+                <div class="legenda-errado text-center">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Errado :(
+                </div>
+
+            </div>
+
+
+            <div class="well col-md-4 col-md-offset-1">
+                <p>Clique no botão verde para continuar e no botão vermelho para cancelar</p>
+
+                <button type="button" class="btn btn-danger btn-lg ">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancelar
+                </button>
+
+                <button type="button" class="btn btn btn-success btn-lg pull-right">
+                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Continuar
+                </button>
+                <div class="clear"></div>
+                <div class="legenda-certo text-center">
+                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Certo!
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+
 
         </div>
     </div>
+
+</div>
 
 </div>
 <div id="s<?php echo $i;
@@ -434,7 +502,7 @@ $i++ ?>">
         </div>
 
         <div class="text text-center">
-            O sítio deve apresentar um Mapa de Site, em forma de lista hierárquica contento todas as páginas do sítio
+            Sítios de universidades tendem a ser grandes, portanto sítio deve apresentar um Mapa de Site, em forma de lista hierárquica contento todas ou as principais páginas do sítio
         </div>
     </div>
     <div class="clear"></div>
@@ -449,7 +517,7 @@ $i++ ?>">
         </div>
 
         <div class="text col-sm-5 vcenter">
-            O sítio deve possuir um campo de busca. Na falta de resultados da busca, deve ser fornecido links com as
+            O sítio deve possuir um campo de busca. Quando a busca não encontra resultados para serem retornados<!--Na falta de resultados da busca-->, deve ser fornecido links com as
             páginas mais acessadas e/ou mais importantes. Além disso, a caixa de busca deve estar presente em todas as
             páginas.
         </div>
