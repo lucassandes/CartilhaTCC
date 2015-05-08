@@ -484,8 +484,8 @@ $i++ ?>">
         <div class="text">
 
             O sítio deve possuir uma harmonia consistente de cores e tipos de fontes em todas as páginas. Deve haver um
-            padrão. Subsites do sítio principal ou sítios de departamentos da Universidade também devem adotar o mesmo
-            padrão.
+            padrão. Subsítios do sítio principal ou sítios de departamentos da Universidade também devem adotar o mesmo
+            padrão. Utilizar no máximo 3 famílias de fontes distintas.
         </div>
     </div>
 
@@ -502,7 +502,8 @@ $i++ ?>">
         </div>
 
         <div class="text text-center">
-            Sítios de universidades tendem a ser grandes, portanto sítio deve apresentar um Mapa de Site, em forma de lista hierárquica contento todas ou as principais páginas do sítio
+            Sítios de universidades tendem a ser grandes, portanto sítio deve apresentar um Mapa de Site, em forma de
+            lista hierárquica contento todas ou as principais páginas do sítio
         </div>
     </div>
     <div class="clear"></div>
@@ -517,9 +518,12 @@ $i++ ?>">
         </div>
 
         <div class="text col-sm-5 vcenter">
-            O sítio deve possuir um campo de busca. Quando a busca não encontra resultados para serem retornados<!--Na falta de resultados da busca-->, deve ser fornecido links com as
+            O sítio deve possuir um campo de busca. Quando a busca não encontra resultados para serem exibidos
+            <!--Na falta de resultados da busca-->, deve ser fornecido links com as
             páginas mais acessadas e/ou mais importantes. Além disso, a caixa de busca deve estar presente em todas as
             páginas.
+
+
         </div>
         <div class="col-sm-5 vcenter  col-sm-offset-1"><img src="imgs/lupa.png" alt="" class="img-responsive"/></div>
     </div>
@@ -543,7 +547,7 @@ $i++ ?>">
         <div class="text col-sm-5 vcenter">
             <p> Para facilitar a compreensão de usuários com deficiência visual, uma descrição para as imagens deve ser
                 fornecida, utilizando-se do atributo “alt”</p>
-
+            <p class="hidden-sm hidden-xs">Passe o mouse na imagem ao lado para visualizar um exemplo de descrição.</p>
             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#codigoImagem"
                     aria-expanded="false" aria-controls="collapseExample">
                 <span class="glyphicon glyphicon-console" aria-hidden="true"></span> Veja o código do exemplo
@@ -599,8 +603,8 @@ $i++ ?>">
 
         <div class="text ">
 
-            As mensagens de erro devem ser apresentadas de maneira clara. Evitar o uso de vocabulário técnico. Quando em
-            formulários, posicionar o cursos no local do erro para facilitar a correção e não limpar o conteúdo do
+            As mensagens de erro devem ser apresentadas de maneira clara. Evitar o uso de vocabulário técnico. Quando ocorrer erro em
+            formulários, posicionar o cursor no local do erro para facilitar a correção e não limpar o conteúdo do
             formulário inteiro por causa de um erro.
         </div>
 
