@@ -196,7 +196,7 @@ $i++ ?>">
         </div>
         <div class="clear"></div>
         <div class="col-xs-6 ">
-            <img src="imgs/teste1.gif" class="img-responsive center-block" alt="Placeholder"/>
+            <img src="imgs/identifique-certo.gif" class="img-responsive center-block" alt="Placeholder"/>
 
             <div class="legenda-certo text-center">
                 <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Certo!
@@ -204,7 +204,7 @@ $i++ ?>">
         </div>
 
         <div class="col-xs-6 ">
-            <img src="imgs/ph1.jpg" class="img-responsive center-block" alt="Placeholder"/>
+            <img src="imgs/gif2.gif" class="img-responsive center-block" alt="Placeholder"/>
 
             <div class="legenda-errado text-center">
                 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Errado :(
