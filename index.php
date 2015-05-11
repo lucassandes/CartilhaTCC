@@ -50,7 +50,7 @@
 
     <div class="container">
         <div class="title text-center">
-            Titulo da sessão
+            Introdução
         </div>
         <div class="col-md-5 col-md-offset-1 box">
 
@@ -831,6 +831,7 @@ $i++ ?>">
 
 </div>
 
+<?php /*
 <div id="s<?php echo $i;
 $i++ ?>">
     <div class="container">
@@ -848,7 +849,7 @@ $i++ ?>">
     <div class="clear"></div>
 
 </div>
-
+*/ ?>
 <div id="s<?php echo $i;
 $i++ ?>">
     <div class="container">
@@ -858,7 +859,7 @@ $i++ ?>">
 
         <div class="text ">
             Na página de cursos deve haver uma pequena descrição do curso, o contato do Coordenador de Curso e a grade
-            horária .
+            horária.
         </div>
 
     </div>
@@ -874,13 +875,43 @@ $i++ ?>">
         </div>
         <div class="text">
             A página inicial deve evidenciar os cursos fornecidos pela universidades. Destaques e notícias princiais
-            devem estar antes da linha de dobra.
+            devem estar antes da linha de dobra, ou seja, não podem estar no fim da página.
 
         </div>
     </div>
 
 </div>
 
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            Rodapé
+        </div>
+        <div class="text">
+            No rodapé do sítio deve haver o endereço da universidade e informações básicas de contato: telefone e e-mail.
+
+        </div>
+    </div>
+
+</div>
+
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <?php echo $i;?>
+    <div class="container">
+        <div class="title text-center">
+            Forma de Ingresso
+        </div>
+        <div class="text">
+            O sítio deve possuir uma página explicando a forma de ingresso na universidade e as etapas do processo.
+            Nessa página também deve ser fornecido o número de vagas oferecidos por curso e links para as páginas dos cursos oferecidos.
+
+        </div>
+    </div>
+
+</div>
 <div id="referencias">
     <div class="container">
         <div class="title bold">
