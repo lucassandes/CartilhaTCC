@@ -195,22 +195,30 @@ $i++ ?>">
             <p> Exemplos: Logotipo, caixa de busca, menu principal.</p>
         </div>
         <div class="clear"></div>
-        <div class="col-xs-6 ">
-            <img src="imgs/identifique-certo.gif" class="img-responsive center-block" alt="Placeholder"/>
 
-            <div class="legenda-certo text-center">
-                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Certo!
-            </div>
-        </div>
 
         <div class="col-xs-6 ">
-            <img src="imgs/gif2.gif" class="img-responsive center-block" alt="Placeholder"/>
+            <img src="imgs/identifique-errado.gif" class="img-responsive center-block border-img"
+                 data-toggle="tooltip" data-placement="top"
+                 alt="Animação ilustrando a maneira errada de identificar a universidade nas páginas do sítio. Em cada
+                 página o logo e a caixa de busca se apresentam em um lugar diferente, dificultando o uso para usuários que utilizam leitores de tela"
+                 title="Animação ilustrando a maneira errada de identificar a universidade nas páginas do sítio. Em cada
+                 página o logo e a caixa de busca se apresentam em um lugar diferente, dificultando o uso para usuários que utilizam leitores de tela"/>
 
             <div class="legenda-errado text-center">
                 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Errado :(
             </div>
         </div>
+        <div class="col-xs-6 ">
+            <img src="imgs/identifique-certo.gif" class="img-responsive center-block border-img"
+                 data-toggle="tooltip" data-placement="top"
+                 alt="Animação ilustrando a maneira correta de identificar a universidade em todas as páginas e no mesmo lugar"
+                 title="Animação ilustrando a maneira correta de identificar a universidade em todas as páginas e no mesmo lugar"/>
 
+            <div class="legenda-certo text-center">
+                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Certo!
+            </div>
+        </div>
         <!--<div class="text col-md-5 text-right vcenter">
             <p>Elementos comuns a todas as págnas devem estar sempre no mesmo lugar.</p>
             <p> Exemplos: Logotipo, caixa de busca, menu principal.</p>
@@ -382,7 +390,10 @@ $i++ ?>">
 
         </div>
         <div class="col-md-6">
-            <img src="imgs/ph1.jpg" alt="" class="img-responsive center-block"/>
+            <img src="imgs/contraste.gif" class="img-responsive center-block border-img"
+                 data-toggle="tooltip" data-placement="top"
+                 alt="Animação simulando o funcionamento da Folha de Estilo com Alto Constraste em um site de universidade"
+                 title="Animação simulando o funcionamento da Folha de Estilo com Alto Constraste em um site de universidade"/>
 
             <div class="legenda-errado text-center">
                 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Exemplo Folha de Estilo com Alto
@@ -547,6 +558,7 @@ $i++ ?>">
         <div class="text col-sm-5 vcenter">
             <p> Para facilitar a compreensão de usuários com deficiência visual, uma descrição para as imagens deve ser
                 fornecida, utilizando-se do atributo “alt”</p>
+
             <p class="hidden-sm hidden-xs">Passe o mouse na imagem ao lado para visualizar um exemplo de descrição.</p>
             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#codigoImagem"
                     aria-expanded="false" aria-controls="collapseExample">
@@ -603,7 +615,8 @@ $i++ ?>">
 
         <div class="text ">
 
-            As mensagens de erro devem ser apresentadas de maneira clara. Evitar o uso de vocabulário técnico. Quando ocorrer erro em
+            As mensagens de erro devem ser apresentadas de maneira clara. Evitar o uso de vocabulário técnico. Quando
+            ocorrer erro em
             formulários, posicionar o cursor no local do erro para facilitar a correção e não limpar o conteúdo do
             formulário inteiro por causa de um erro.
         </div>
@@ -642,19 +655,29 @@ $i++ ?>">
             Textos na internet devem ser curtos, por isso divida os textos mais longos em pequenas unidades, pequenos
             parágrafos ou listas para facilitar o entendimento do conteúdo da informação
         </div>
-        <div class="col-xs-6 ">
-            <img src="imgs/ph1.jpg" class="img-responsive center-block" alt="Placeholder"/>
 
-            <div class="legenda-certo text-center">
-                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Certo!
+
+        <div class="col-xs-6 ">
+            <?php $string = 'Imagem da página de um site de universidade em que o texto é longo, sem divisão de tópicos. Exemplifica a maneira errada de produzir textos para os sítios de universidades'; ?>
+            <img src="imgs/texto-errado.png" class="img-responsive center-block border-img"
+                 data-toggle="tooltip" data-placement="top"
+                 alt="<?php echo $string; ?>"
+                 title="<?php echo $string; ?>"/>
+
+            <div class="legenda-errado text-center">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Errado :(
             </div>
         </div>
 
         <div class="col-xs-6 ">
-            <img src="imgs/ph1.jpg" class="img-responsive center-block" alt="Placeholder"/>
+            <?php $string = 'Imagem da página de um site de universidade em que o texto longo foi dividido em blocos menores e organizado por tópicos. Exemplifica a maneira adequada de produzir textos para os sítios de universidades' ;?>
+            <img src="imgs/texto-certo.png" class="img-responsive center-block border-img"
+                 data-toggle="tooltip" data-placement="top"
+                 alt="<?php echo $string; ?>"
+                 title="<?php echo $string; ?>"/>
 
-            <div class="legenda-errado text-center">
-                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Errado :(
+            <div class="legenda-certo text-center">
+                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Certo!
             </div>
         </div>
 
@@ -717,22 +740,34 @@ $i++ ?>">
             hierarquia das informações ta disposta de forma coerente
 
         </div>
-        <div class="col-xs-6 ">
-            <img src="imgs/ph1.jpg" class="img-responsive center-block" alt="Placeholder"/>
 
-            <div class="legenda-certo text-center">
-                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Certo!
-            </div>
-        </div>
 
         <div class="col-xs-6 ">
-            <img src="imgs/ph1.jpg" class="img-responsive center-block" alt="Placeholder"/>
+            <?php $string = 'Animação exemplificando a maneira errada de ordenar a leitura de tabulação.
+            Ao navegar pela tecla tab, o cursor não navega de forma intuitiva e coerente'; ?>
+            <img src="imgs/tabulacao-errado.gif" class="img-responsive center-block border-img"
+                 data-toggle="tooltip" data-placement="top"
+                 alt="<?php echo $string; ?>"
+                 title="<?php echo $string; ?>"
+                />
 
             <div class="legenda-errado text-center">
                 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Errado :(
             </div>
         </div>
+        <div class="col-xs-6 ">
+            <?php $string = 'Animação exemplificando a maneira correta de ordenar a leitura de tabulação.
+            Ao navegar pela tecla tab, o cursor navega de forma intuitiva e coerente, facilitando o uso do sítio por
+            pessoas com limitações visuais ou motoras'; ?>
+            <img src="imgs/tabulacao-certo.gif" class="img-responsive center-block border-img"
+                 data-toggle="tooltip" data-placement="top"
+                 alt="<?php echo $string; ?>"
+                 title="<?php echo $string; ?>"/>
 
+            <div class="legenda-certo text-center">
+                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Certo!
+            </div>
+        </div>
     </div>
     <div class="clear"></div>
 
