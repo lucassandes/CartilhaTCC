@@ -105,6 +105,17 @@ h2 {
 
 }
 
+.full-width {
+  width: 100%;
+}
+
+#titulo {
+  background-color: @primary-color;
+  p {
+    margin-top: 30px;
+    color: @light-bg;
+  }
+}
 #acessibilidade-usabilidade {
   background-color: @cold;
 
@@ -464,4 +475,32 @@ background: @dark-gray url("../imgs/404.png") repeat;
   .text {
     color: white;
   }
+}
+
+#s25 {
+  background-color: @light-bg;
+
+  .title {
+    color: @primary-color;
+  }
+
+  .text {
+    color: @dark-gray;
+  }
+}
+
+#s24{
+  background-color: @primary-color;
+
+  .title {
+    color: white;
+  }
+
+  .text {
+    color: @light-bg;
+  }
+}
+
+#s26:extend(#s22 all)  {
+
 }

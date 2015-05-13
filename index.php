@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
@@ -31,19 +31,22 @@
 
 </header>
 <div id="titulo">
-
+    <div class="clear"></div>
     <div class="container">
-
-        <h1 class="text-center">
-            <span>2X</span> Recomendações para o desenvolvimento de Sítios de Universidades Públicas Acessíveis e com
+        <img src="imgs/header.png" alt="26 Recomendações para o desenvolvimento de sítios acessíveis e com boa usabilidade
+                                        para Universidades Públicas" class="center-block img-responsive"/>
+        <!--<h1 class="text-center">
+          <span>2X</span> Recomendações para o desenvolvimento de Sítios de Universidades Públicas Acessíveis e com
             boa Usabilidade
-        </h1>
+        </h1>-->
 
-        <h2 class="text-center">Trabalho de Conclusão de Curso de Lucas Vinícius Maciel Sandes</h2>
+          <p class="text-right">Trabalho de Conclusão de Curso<br/> Lucas Vinícius Maciel Sandes<br/> Universidade Federal de São Paulo - Unifesp<br/> Bacharelado em Ciência da Computação. 2015</p>
+        
 
-        <h3 class="text-center">Universidade Federal de São Paulo - UNIFESP</h3>
-        <h4 class="text-center">Bacharelado em Ciência da Computação - 2015</h4>
+
+
     </div>
+    <div class="clear"></div>
 </div>
 
 <div id="acessibilidade-usabilidade">
@@ -882,19 +885,6 @@ $i++ ?>">
 
 </div>
 
-<div id="s<?php echo $i;
-$i++ ?>">
-    <div class="container">
-        <div class="title text-center">
-            Rodapé
-        </div>
-        <div class="text">
-            No rodapé do sítio deve haver o endereço da universidade e informações básicas de contato: telefone e e-mail.
-
-        </div>
-    </div>
-
-</div>
 
 
 <div id="s<?php echo $i;
@@ -912,6 +902,64 @@ $i++ ?>">
     </div>
 
 </div>
+
+
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            Rodapé
+        </div>
+        <div class="text">
+            No rodapé do sítio deve haver o endereço da universidade e informações básicas de contato: telefone e e-mail.
+
+        </div>
+    </div>
+
+</div>
+
+
+<div id="s<?php echo $i;
+$i++ ?>">
+    <div class="container">
+        <div class="title text-center">
+            Precisa de ajuda?
+        </div>
+
+        <div class="text col-sm-5 vcenter  col-sm-offset-1">
+           <p> Para facilitar o entendimento dessa cartilha, foi desenvolvido um <strong>template</strong> para <em>Wordpress</em> contemplando todas as recomendações.
+           </p>
+            <div class="clear"></div>
+            <div class="col-md-12 row">
+                <a href="javascript:alert('Em desenvolvimento')" class="btn btn-default text-left full-width" role="button">
+                    <span class=" glyphicon glyphicon-new-window" aria-hidden="true"></span>  Veja o template funcionando
+                </a>
+            </div>
+
+            <div class="clear"></div>
+            <div class="col-md-12 row">
+                <a href="javascript:alert('Em desenvolvimento')" class="btn btn-default  text-left full-width" role="button">
+                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Faça o download do template
+                </a>
+            </div>
+        </div>
+
+
+        <div class=" col-sm-5 vcenter">
+            <img src="imgs/placeholder.png" class="img-responsive center-block" alt="Screenshot do template"/>
+
+
+        </div>
+
+        <div class="clear"></div>
+
+    </div>
+
+</div>
+
+
+
 <div id="referencias">
     <div class="container">
         <div class="title bold">
