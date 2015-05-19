@@ -10,6 +10,7 @@
     <!-- GoogleFonts -->
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
@@ -33,6 +34,18 @@
 <div id="titulo">
     <div class="clear"></div>
     <div class="container">
+
+        <h1>
+            <span id="numero" class="col-md-2 col-xs-12">26</span>
+            <span id="recomendacoes"  class="col-md-10 col-xs-12"> Recomendações para o desenvolvimento de sítios</span>
+
+            <span id="acessiveis-usabilidade" class="col-md-12 col-xs-12">Acessíveis e com boa Usabilidade</span>
+            <span id="para"  class="col-md-12 col-xs-12">para</span>
+
+            <span id="universidades"  class="col-md-12 col-xs-12">Universidades Públicas</span>
+        </h1>
+
+        <div class="clear"></div><div class="clear"></div><div class="clear"></div>
         <img src="imgs/header.png" alt="26 Recomendações para o desenvolvimento de sítios acessíveis e com boa usabilidade
                                         para Universidades Públicas" class="center-block img-responsive"/>
         <!--<h1 class="text-center">
