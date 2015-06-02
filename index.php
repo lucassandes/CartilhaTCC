@@ -35,6 +35,8 @@
     <div class="clear"></div>
     <div class="container">
 
+        <?php /*
+
         <h1>
             <span id="numero" class="col-md-2 col-xs-12">26</span>
             <span id="recomendacoes"  class="col-md-10 col-xs-12"> Recomendações para o desenvolvimento de sítios</span>
@@ -44,8 +46,8 @@
 
             <span id="universidades"  class="col-md-12 col-xs-12">Universidades Públicas</span>
         </h1>
-
-        <div class="clear"></div><div class="clear"></div><div class="clear"></div>
+        */ ?>
+        <div class="clear"></div><div class="clear"></div>
         <img src="imgs/header.png" alt="26 Recomendações para o desenvolvimento de sítios acessíveis e com boa usabilidade
                                         para Universidades Públicas" class="center-block img-responsive"/>
         <!--<h1 class="text-center">
@@ -952,7 +954,7 @@ $i++ ?>">
 
             <div class="clear"></div>
             <div class="col-md-12 row">
-                <a href="javascript:alert('Em desenvolvimento')" class="btn btn-default  text-left full-width" role="button">
+                <a href="template/" class="btn btn-default  text-left full-width" role="button">
                     <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Faça o download do template
                 </a>
             </div>
