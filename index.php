@@ -1,11 +1,11 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title text-center>Cartilha de Acessibilidade </title text-center>
+    <title>Cartilha de Acessibilidade e Usabilidade</title>
 
     <!-- GoogleFonts -->
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
@@ -31,6 +31,32 @@
 <header>
 
 </header>
+
+<div id="accessibility-bar-info">
+
+    <ul id="accessibility-info" class="hidden-sm hidden-xs">
+        <li>
+            <a accesskey="1" href="#acessibilidade-usabilidade">
+                Ir para o conteúdo <span>1</span>
+            </a>
+        </li>
+
+        <li class="last-item">
+            <a accesskey="2" href="#referencias">
+                Ir para o rodapé<span> 2</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="javascript:swapStyleSheet()" title="Alto Contraste" accesskey="3">Alto Contraste</a>
+        </li>
+
+
+    </ul>
+
+
+</div>
+
 <div id="titulo">
     <div class="clear"></div>
     <div class="container">
@@ -47,17 +73,18 @@
             <span id="universidades"  class="col-md-12 col-xs-12">Universidades Públicas</span>
         </h1>
         */ ?>
-        <div class="clear"></div><div class="clear"></div>
-        <img src="imgs/header.png" alt="26 Recomendações para o desenvolvimento de sítios acessíveis e com boa usabilidade
-                                        para Universidades Públicas" class="center-block img-responsive"/>
+        <div class="clear"></div>
+        <h1><a href="http://lucassandes.com/cartilha-acessibilidade-usabilidade">26 Recomendações para o desenvolvimento
+                de sítios acessíveis e com boa usabilidade para Universidades Públicas</a></h1>
+        <!-- <img src="imgs/header.png" alt="26 Recomendações para o desenvolvimento de sítios acessíveis e com boa usabilidade
+                                        para Universidades Públicas" class="center-block img-responsive"/> -->
         <!--<h1 class="text-center">
           <span>2X</span> Recomendações para o desenvolvimento de Sítios de Universidades Públicas Acessíveis e com
             boa Usabilidade
         </h1>-->
 
-          <p class="text-right">Trabalho de Conclusão de Curso<br/> Lucas Vinícius Maciel Sandes<br/> Universidade Federal de São Paulo - Unifesp<br/> Bacharelado em Ciência da Computação. 2015</p>
-
-
+        <p class="text-right">Trabalho de Conclusão de Curso<br/> Lucas Vinícius Maciel Sandes<br/> Universidade Federal
+            de São Paulo - Unifesp<br/> Bacharelado em Ciência da Computação. 2015</p>
 
 
     </div>
@@ -282,7 +309,8 @@ $i++ ?>">
             </p>
 
             <div class="well">
-                <p> Você está em <u>Página Inicial</u> -> <u>Cursos</u> -> <u>Ciência da Computação</u></p>
+                <p> Você está em <span class="underline">Página Inicial</span> -> <span class="underline">Cursos</span>
+                    -> <span class="underline">Ciência da Computação</span></p>
             </div>
         </div>
         <div class="clear"></div>
@@ -308,49 +336,47 @@ $i++ ?>">
             <p><strong>Exemplo:</strong></p>
         </div>
 
-        <div id="accessibility-bar" class="col-md-12">
+        <div id="accessibility-bar-ex" class="col-md-12">
 
-            <ul id="accessibility" class="hidden-sm hidden-xs">
+            <ul id="accessibility-ex" class="hidden-sm hidden-xs">
                 <li>
-                    <a accesskey="1" href="javascript:void();"
-                       id="link-conteudo">
+                      <span class="emule-link" title="Link de exemplo - não funciona">
                         Ir para o conteúdo
-                        <span>1</span>
-                    </a>
+                          <span class="access-key">1</span>
+                    </span>
                 </li>
                 <li>
-                    <a accesskey="2" href="javascript:void();"
-                       id="link-navegacao">
+                  <span class="emule-link" title="Link de exemplo - não funciona">
                         Ir para o menu
-                        <span>2</span>
-                    </a>
+                          <span class="access-key">2</span>
+                    </span>
                 </li>
                 <li>
-                    <a accesskey="3" href="javascript:void();" id="link-buscar">
+                     <span class="emule-link" title="Link de exemplo - não funciona">
                         Ir para a busca
-                        <span>3</span>
-                    </a>
+                          <span class="access-key">3</span>
+                   </span>
                 </li>
                 <li class="last-item">
-                    <a accesskey="3" href="javascript:void();"
-                       id="link-rodape">
+                    <span class="emule-link" title="Link de exemplo - não funciona">
                         Ir para o rodapé
-                        <span> 4 </span>
-                    </a>
+                        <span class="access-key"> 4 </span>
+                    </span>
                 </li>
             </ul>
 
-            <ul id="portal-siteactions">
+            <ul id="portal-siteactions-ex">
                 <li id="siteaction-accessibility">
-                    <a href="javascript:void();" title="Acessibilidade" accesskey="5">Acessibilidade</a>
+                   <span class="emule-link">Acessibilidade</span>
                 </li>
                 <li id="siteaction-contraste">
-                    <a href="javascript:swapStyleSheet()" title="Alto Contraste" accesskey="6">Alto Contraste</a>
+                    <a href="javascript:swapStyleSheet()" title="Ativar Alto Contraste" accesskey="6">Alto Contraste</a>
                 </li>
             </ul>
 
 
         </div>
+
         <div class="clear"></div>
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
                 aria-expanded="false" aria-controls="collapseExample">
@@ -502,7 +528,7 @@ $i++ ?>">
 
 </div>
 
-</div>
+
 <div id="s<?php echo $i;
 $i++ ?>">
     <div class="container">
@@ -520,7 +546,9 @@ $i++ ?>">
 
 </div>
 
-<!---------- Funcionalidade ---------- --->
+
+<!-- Funcionalidade -->
+
 
 <div id="s<?php echo $i;
 $i++ ?>">
@@ -554,7 +582,9 @@ $i++ ?>">
 
 
         </div>
-        <div class="col-sm-5 vcenter  col-sm-offset-1"><img src="imgs/lupa.png" alt="" class="img-responsive"/></div>
+        <div class="col-sm-5 vcenter  col-sm-offset-1"><img src="imgs/lupa.png"
+                                                            alt="Ilustração de um personagem utilizando uma lupa, representando uma busca"
+                                                            class="img-responsive"/></div>
     </div>
     <div class="clear"></div>
 
@@ -688,7 +718,7 @@ $i++ ?>">
         </div>
 
         <div class="col-xs-6 ">
-            <?php $string = 'Imagem da página de um site de universidade em que o texto longo foi dividido em blocos menores e organizado por tópicos. Exemplifica a maneira adequada de produzir textos para os sítios de universidades' ;?>
+            <?php $string = 'Imagem da página de um site de universidade em que o texto longo foi dividido em blocos menores e organizado por tópicos. Exemplifica a maneira adequada de produzir textos para os sítios de universidades'; ?>
             <img src="imgs/texto-certo.png" class="img-responsive center-block border-img"
                  data-toggle="tooltip" data-placement="top"
                  alt="<?php echo $string; ?>"
@@ -808,7 +838,6 @@ $i++ ?>">
 
 </div>
 
-<!-------------------------------- -->
 
 <div id="s<?php echo $i;
 $i++ ?>">
@@ -901,23 +930,22 @@ $i++ ?>">
 </div>
 
 
-
 <div id="s<?php echo $i;
 $i++ ?>">
-    <?php echo $i;?>
+    <?php echo $i; ?>
     <div class="container">
         <div class="title text-center">
             Forma de Ingresso
         </div>
         <div class="text">
             O sítio deve possuir uma página explicando a forma de ingresso na universidade e as etapas do processo.
-            Nessa página também deve ser fornecido o número de vagas oferecidos por curso e links para as páginas dos cursos oferecidos.
+            Nessa página também deve ser fornecido o número de vagas oferecidos por curso e links para as páginas dos
+            cursos oferecidos.
 
         </div>
     </div>
 
 </div>
-
 
 
 <div id="s<?php echo $i;
@@ -927,7 +955,8 @@ $i++ ?>">
             Rodapé
         </div>
         <div class="text">
-            No rodapé do sítio deve haver o endereço da universidade e informações básicas de contato: telefone e e-mail.
+            No rodapé do sítio deve haver o endereço da universidade e informações básicas de contato: telefone e
+            e-mail.
 
         </div>
     </div>
@@ -943,19 +972,23 @@ $i++ ?>">
         </div>
 
         <div class="text col-sm-5 vcenter  col-sm-offset-1">
-           <p> Para facilitar o entendimento dessa cartilha, foi desenvolvido um <strong>template</strong> para <em>Wordpress</em> contemplando todas as recomendações.
-           </p>
+            <p> Para facilitar o entendimento dessa cartilha, foi desenvolvido um <strong>template</strong> para <em>Wordpress</em>
+                contemplando todas as recomendações.
+            </p>
+
             <div class="clear"></div>
             <div class="col-md-12 row">
-                <a href="javascript:alert('Em desenvolvimento')" class="btn btn-default text-left full-width" role="button">
-                    <span class=" glyphicon glyphicon-new-window" aria-hidden="true"></span>  Veja o template funcionando
+                <a href="javascript:alert('Em desenvolvimento')" class="btn btn-default text-left full-width"
+                   role="button">
+                    <span class=" glyphicon glyphicon-new-window" aria-hidden="true"></span> Veja o template funcionando
                 </a>
             </div>
 
             <div class="clear"></div>
             <div class="col-md-12 row">
                 <a href="template/" class="btn btn-default  text-left full-width" role="button">
-                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Faça o download do template
+                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Faça o download do
+                    template
                 </a>
             </div>
         </div>
@@ -972,7 +1005,6 @@ $i++ ?>">
     </div>
 
 </div>
-
 
 
 <div id="referencias">
@@ -1005,6 +1037,10 @@ $i++ ?>">
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
     })
+
+
+    //corrigindo o javascript:void(0) para acessibilidade
+    $("a:not([href])").attr("href", "javascript:void(0);");
 
     //toogle stylesheet
     function swapStyleSheet() {

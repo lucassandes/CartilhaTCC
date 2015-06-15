@@ -22,10 +22,34 @@ body {
 
 h1 {
   font-family: 'Lobster', cursive;
-  font-size: 90px;
+  text-indent: -9999px;
+  background: url('../imgs/header.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height:370px;
   //text-align: center;
 }
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+  h1{
+    min-height:470px;
+  }
+}
 
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+
+  h1{
+    min-height: 667px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+  h1{
+    min-height: 680px;
+  }
+}
 h2 {
 
 }
@@ -45,6 +69,9 @@ h2 {
   height: 40px;
 }
 
+.underline {
+  text-decoration: underline;
+}
 .text {
   margin-bottom: 40px;
 }
@@ -371,6 +398,24 @@ h2 {
         display: inline;
         vertical-align: middle;
 
+
+        span.emule-link {
+          color: @gray-dark;
+          padding: 10px 1em 0 0;
+          display: inline-block;
+          text-decoration: none;
+        }
+
+        span.emule-link:hover {
+          text-decoration: underline;
+          cursor:not-allowed;
+        }
+        span.access-key {
+          background-color: @dark-gray;
+          color: @light-bg;
+          padding: 0px 5px;
+        }
+
         a {
           color: @gray-dark;
           padding: 10px 1em 0 0;
@@ -381,11 +426,7 @@ h2 {
         a:hover {
           text-decoration: underline;
         }
-        span {
-          background-color: @dark-gray;
-          color: @light-bg;
-          padding: 0px 5px;
-        }
+
       }
 
     }
