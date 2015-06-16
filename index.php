@@ -161,7 +161,7 @@
 
             <div class="text">
                 <p>
-                    O termo Usabilidade é frequêntemente associado à facilidade que um produto pode ser utilizado.
+                    O termo Usabilidade é frequentemente associado ao grau de facilidade de um produto ser utilizado.
                 </p>
 
                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detalhes-usabilidade"
@@ -237,7 +237,7 @@ $i++ ?>">
         <div class="col-md-12 text text-center">
             <p>Elementos comuns a todas as páginas devem estar sempre no mesmo lugar.</p>
 
-            <p> Exemplos: Logotipo, caixa de busca, menu principal.</p>
+            <p> Exemplos: logotipo, caixa de busca, menu principal.</p>
         </div>
         <div class="clear"></div>
 
@@ -326,7 +326,7 @@ $i++ ?>">
         </div>
         <div class="text">
             <p>O sítio deve possuir uma <strong>barra de acessibilidade</strong> com os seguintes itens:
-                Atalhos (para menu, conteúdo e busca), Alto contraste e Acessibilidade (link para a página com os
+                atalhos (para menu, conteúdo e busca), Alto contraste e Acessibilidade (link para a página com os
                 recursos de acessibilidades do sítio);
                 Se o sítio for responsivo e/ou possuir versão mobile, pode-se ocultar os atalhos de teclado nos
                 dispositivos de telas menores, mas as
@@ -397,7 +397,7 @@ $i++ ?>">
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            Alto Contraste / Folha de estilo com alto contraste
+            Alto contraste / Folha de estilo com alto contraste
 
         </div>
 
@@ -407,23 +407,23 @@ $i++ ?>">
             <ul>
                 <li>
                     <div class="square black-square" data-toggle="tooltip" data-placement="top" title="#000000"></div>
-                    Cor de fundo: Deve ser utilizado preto
+                    Cor de fundo: deve ser utilizado preto
                 </li>
                 <li>
                     <div class="square white-square" data-toggle="tooltip" data-placement="top" title="#FFFFFF"></div>
-                    Cor do texto: Deve ser branco
+                    Cor do texto: deve ser branco
                 </li>
                 <li>
                     <div class="square yellow-square" data-toggle="tooltip" data-placement="top" title="#FFF333"></div>
-                    Links: Sublinhados e de cor amarelo
+                    Links: sublinhados e de cor amarela
                 </li>
                 <li>
                     <div class="square white-square" data-toggle="tooltip" data-placement="top" title="#FFFFFF"></div>
-                    Ícones: Devem ser brancos
+                    Ícones: devem ser brancos
                 </li>
                 <li>
                     <div class="square white-square" data-toggle="tooltip" data-placement="top" title="#FFFFFF"></div>
-                    Linhas e contornos: Devem ser brancos
+                    Linhas e contornos: devem ser brancos
                 </li>
             </ul>
             <br/>
@@ -463,8 +463,7 @@ $i++ ?>">
                 isso,
                 as páginas devem funcionar corretamente independente de plataformas ou navegadores.</p>
 
-            <p>Não usar
-                expressões como “compatível com” “melhor visto na resolução...”</p>
+            <p>Não usar  expressões como “compatível com” ou “melhor visto na resolução...”</p>
 
 
         </div>
@@ -533,14 +532,30 @@ $i++ ?>">
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            Esquema consistente de cores e fontes.
+            Esquema consistente de cores e fontes
         </div>
 
         <div class="text">
 
             O sítio deve possuir uma harmonia consistente de cores e tipos de fontes em todas as páginas. Deve haver um
-            padrão. Subsítios do sítio principal ou sítios de departamentos da Universidade também devem adotar o mesmo
+            padrão. Subsítios do sítio principal ou sítios de departamentos da universidade também devem adotar o mesmo
             padrão. Utilizar no máximo 3 famílias de fontes distintas.
+
+
+
+            <div class="clear"></div>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#exemplo-tipo"
+                    aria-expanded="false" aria-controls="exemplo-tipo">
+                <span class="glyphicon glyphicon-console" aria-hidden="true"></span> Veja sugestão para tamanho de fontes
+            </button>
+
+            <div class="collapse" id="exemplo-tipo">
+
+                <script src="https://gist.github.com/lucassandes/4e01389b981f642c1d2c.js"></script>
+
+            </div>
+
+
         </div>
     </div>
 
@@ -559,8 +574,8 @@ $i++ ?>">
         </div>
 
         <div class="text text-center">
-            Sítios de universidades tendem a ser grandes, portanto sítio deve apresentar um Mapa de Site, em forma de
-            lista hierárquica contento todas ou as principais páginas do sítio
+            Sítios de universidades tendem a ser grandes, portanto o sítio deve apresentar um <strong>Mapa de Site</strong> em forma de
+            lista hierárquica contento todas ou as principais páginas do sítio.
         </div>
     </div>
     <div class="clear"></div>
@@ -575,8 +590,8 @@ $i++ ?>">
         </div>
 
         <div class="text col-sm-5 vcenter">
-            O sítio deve possuir um campo de busca. Quando a busca não encontra resultados para serem exibidos
-            <!--Na falta de resultados da busca-->, deve ser fornecido links com as
+            O sítio deve possuir um campo de busca. Quando a busca não encontra resultados para serem exibidos,
+            <!--Na falta de resultados da busca--> devem ser fornecido links com as
             páginas mais acessadas e/ou mais importantes. Além disso, a caixa de busca deve estar presente em todas as
             páginas.
 
@@ -605,7 +620,7 @@ $i++ ?>">
 
         <div class="text col-sm-5 vcenter">
             <p> Para facilitar a compreensão de usuários com deficiência visual, uma descrição para as imagens deve ser
-                fornecida, utilizando-se do atributo “alt”</p>
+                fornecida, utilizando-se do atributo “alt”.</p>
 
             <p class="hidden-sm hidden-xs">Passe o mouse na imagem ao lado para visualizar um exemplo de descrição.</p>
             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#codigoImagem"
@@ -629,7 +644,7 @@ $i++ ?>">
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            Evitar conteúdo textual em imagens.
+            Evitar conteúdo textual em imagens
         </div>
 
         <div class="text col-sm-5 vcenter  col-sm-offset-1">
@@ -681,9 +696,9 @@ $i++ ?>">
             Páginas de conteúdo não encontrado
         </div>
 
-        <div class="text">
+        <div class="text text-center">
             Páginas de erro devem possuir links para a página inicial, de “Fale Conosco” e possuir um campo de busca
-            evidente
+            evidente.
         </div>
 
     </div>
@@ -696,12 +711,12 @@ $i++ ?>">
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            Dividir o texto em tópicos.
+            Dividir o texto em tópicos
         </div>
 
         <div class="text ">
-            Textos na internet devem ser curtos, por isso divida os textos mais longos em pequenas unidades, pequenos
-            parágrafos ou listas para facilitar o entendimento do conteúdo da informação
+            Textos na internet devem ser curtos. Por isso, divida os textos mais longos em pequenas unidades, pequenos
+            parágrafos ou listas para facilitar o entendimento do conteúdo da informação.
         </div>
 
 
@@ -739,7 +754,7 @@ $i++ ?>">
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            Utilizar termos simples e claros como rótulos de menu.
+            Utilizar termos simples e claros como rótulos de menu
         </div>
 
         <div class="text ">
@@ -757,15 +772,15 @@ $i++ ?>">
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            Usar Convenções
+            Usar convenções
         </div>
 
         <div class="text ">
-            Utilize convenções comuns da internet, como por exemplo:
-            Links sublinhados;
-            Caixa de busca no canto superior direito;
-            Logotipo no canto superior esquerdo;
-            Logotipo funcionar como link para página inicial;
+            Utilize convenções comuns da Internet, como por exemplo:
+            links sublinhados,
+            caixa de busca no canto superior direito,
+           logotipo no canto superior esquerdo,
+            logotipo funcionar como link para página inicial,
 
         </div>
 
@@ -784,8 +799,8 @@ $i++ ?>">
 
         <div class="text ">
             "Ordenar de forma lógica e intuitiva a leitura e tabulação"
-            O desenvolvedor deve navegar pelo sítio apenas pelo teclado (utilzando a tecla tab) afim de identificar se a
-            hierarquia das informações ta disposta de forma coerente
+            O desenvolvedor deve navegar pelo sítio apenas pelo teclado (utilzando a tecla tab) a fim de identificar se a
+            hierarquia das informações encontra-se disposta de forma coerente.
 
         </div>
 
@@ -847,10 +862,10 @@ $i++ ?>">
         </div>
 
         <div class="text ">
-            Não fornecer arquivos oficiais em formatos de arquivos abertos para edição (.doc, por ex), optar sempre pelo
-            pdf.
-            Ao utilizar arquivos em PDF, fornecer o conteúdo do documento em formatos acessíveis, isto é, pdfs também
-            devem ter sua alternativa em HTML
+            Não fornecer arquivos oficiais em formatos de arquivos abertos para edição (.doc, por exemplo), optar sempre pelo
+            PDF.
+            Ao utilizar arquivos em PDF, fornecer o conteúdo do documento em formatos acessíveis, isto é, PDFs também
+            devem ter sua alternativa em HTML.
 
         </div>
 
@@ -864,12 +879,12 @@ $i++ ?>">
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            Programas Universitários
+            Programas universitários
         </div>
 
         <div class="text ">
             Facilite para os usuários a visualização de projetos e programas desenvolvidos na universidade, como por
-            exemplo: Programas de extenção, Iniciação Científica e Programas de Estágio
+            exemplo: programas de extenção, Iniciação Científica e Programas de Estágio.
 
         </div>
 
@@ -901,7 +916,7 @@ $i++ ?>">
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            Página de Cursos
+            Página de cursos
         </div>
 
         <div class="text ">
@@ -921,7 +936,7 @@ $i++ ?>">
             Página inicial
         </div>
         <div class="text">
-            A página inicial deve evidenciar os cursos fornecidos pela universidades. Destaques e notícias princiais
+            A página inicial deve evidenciar os cursos fornecidos pela universidade. Destaques e notícias principais
             devem estar antes da linha de dobra, ou seja, não podem estar no fim da página.
 
         </div>
@@ -935,7 +950,7 @@ $i++ ?>">
     <?php echo $i; ?>
     <div class="container">
         <div class="title text-center">
-            Forma de Ingresso
+            Forma de ingresso
         </div>
         <div class="text">
             O sítio deve possuir uma página explicando a forma de ingresso na universidade e as etapas do processo.
