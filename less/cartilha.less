@@ -23,7 +23,7 @@ body {
 h1 {
   font-family: 'Lobster', cursive;
   text-indent: -9999px;
-  background: url('../imgs/header.png');
+  background: url('../imgs/header_white.png');
   background-repeat: no-repeat;
   background-size: 100%;
   min-height:370px;
@@ -54,6 +54,46 @@ h2 {
 
 }
 
+
+#accessibility-bar-info {
+  height: 3em;
+  background-color: @light-bg;
+  font-size: 14px;
+  //border-radius: 4px;
+
+  ul {
+    list-style: none;
+    -webkit-padding-start: 0px;
+
+    li {
+      display: inline;
+      vertical-align: middle;
+
+      span.emule-link:hover {
+        text-decoration: underline;
+        cursor: not-allowed;
+      }
+      span.access-key {
+        background-color: @dark-gray;
+        color: @light-bg;
+        padding: 0px 5px;
+      }
+
+      a {
+        color: @gray-dark;
+        padding: 10px 1em 0 0;
+        display: inline-block;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+    }
+
+  }
+}
 .title {
   font-family: 'Lobster', cursive;
   font-size: 55px;
@@ -469,7 +509,10 @@ h2 {
 }
 
 #s6:extend(#s1 all) {
-
+  .subtitle {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
 }
 
 #s7:extend(#s2 all) {

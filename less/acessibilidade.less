@@ -1,9 +1,7 @@
-
 @amarelo: #FFF333;
 body {
   background: black;
 }
-
 
 a {
   color: @amarelo;
@@ -17,17 +15,40 @@ a {
   color: white;
 }
 
+.well {
+  background-color: black;
+}
+
+#titulo, #acessibilidade-usabilidade {
+  background-color: black;
+  border-bottom: 1px solid white;
+  .box {
+    background-color: black;
+    border: 1px solid white;
+    .title {
+      color: white;
+    }
+
+  }
+}
+
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary {
+  background: black;
+  color: white;
+}
+
 .btn-primary {
   background-color: black;
   border: 1px solid white;
   color: @amarelo;
-  &:hover{
+  &:hover {
     text-decoration: underline;
     background-color: black;
     color: @amarelo;
     border-color: @amarelo;
   }
 }
+
 .sessoes-acessiveis(30);
 
 .sessoes-acessiveis(@n, @i: 1) when (@i =< @n) {
@@ -41,3 +62,64 @@ a {
   }
   .sessoes-acessiveis(@n, (@i + 1));
 }
+
+#s4 {
+  #accessibility-bar-ex {
+    background: black;
+    color: white;
+    border: 1px solid white;
+
+    ul {
+      li {
+        span.emule-link {
+          color:@amarelo;
+        }
+
+        span.emule-link:hover {
+          text-decoration: underline;
+
+        }
+        span.access-key {
+          background-color: white;
+          color: black;
+
+        }
+
+        a {
+          color: @amarelo;
+        }
+      }
+    }
+  }
+
+}
+
+#accessibility-bar-info {
+  background: black;
+  color: white;
+  border: 1px solid white;
+
+  ul {
+    li {
+      span.emule-link {
+        color:@amarelo;
+      }
+
+      span.emule-link:hover {
+        text-decoration: underline;
+
+      }
+      span.access-key {
+        background-color: white;
+        color: black;
+
+      }
+
+      a {
+        color: @amarelo;
+      }
+    }
+  }
+}
+
+

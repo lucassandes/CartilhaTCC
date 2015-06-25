@@ -29,33 +29,33 @@
 
 
 <header>
+    <div id="accessibility-bar-info">
+        <div class="container">
+            <ul id="accessibility-info" class="hidden-sm hidden-xs">
+                <li>
+                    <a accesskey="1" href="#acessibilidade-usabilidade">
+                        Ir para o conteúdo <span class="access-key" >1</span>
+                    </a>
+                </li>
 
+                <li class="last-item">
+                    <a accesskey="2" href="#referencias">
+                        Ir para o rodapé <span class="access-key">2</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript:swapStyleSheet()" title="Alto Contraste" accesskey="3">Alto Contraste <span class="access-key">3</span></a>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </div>
 </header>
 
-<div id="accessibility-bar-info">
 
-    <ul id="accessibility-info" class="hidden-sm hidden-xs">
-        <li>
-            <a accesskey="1" href="#acessibilidade-usabilidade">
-                Ir para o conteúdo <span>1</span>
-            </a>
-        </li>
-
-        <li class="last-item">
-            <a accesskey="2" href="#referencias">
-                Ir para o rodapé<span> 2</span>
-            </a>
-        </li>
-
-        <li>
-            <a href="javascript:swapStyleSheet()" title="Alto Contraste" accesskey="3">Alto Contraste</a>
-        </li>
-
-
-    </ul>
-
-
-</div>
 
 <div id="titulo">
     <div class="clear"></div>
@@ -367,7 +367,7 @@ $i++ ?>">
 
             <ul id="portal-siteactions-ex">
                 <li id="siteaction-accessibility">
-                   <span class="emule-link">Acessibilidade</span>
+                    <span class="emule-link">Acessibilidade</span>
                 </li>
                 <li id="siteaction-contraste">
                     <a href="javascript:swapStyleSheet()" title="Ativar Alto Contraste" accesskey="6">Alto Contraste</a>
@@ -453,9 +453,11 @@ $i++ ?>">
 $i++ ?>">
     <div class="container">
         <div class="title text-center">
-            Responsividade / Permitir redimensionamento sem perda de funcionalidade
+            Responsividade
 
         </div>
+
+        <div class="subtitle text-center"> Permitir redimensionamento sem perda de funcionalidade</div>
 
         <div class="text">
             <p>O sítio deve ser responsivo, permitindo o redimensionamento da tela para até 200% sem perda de
@@ -463,7 +465,7 @@ $i++ ?>">
                 isso,
                 as páginas devem funcionar corretamente independente de plataformas ou navegadores.</p>
 
-            <p>Não usar  expressões como “compatível com” ou “melhor visto na resolução...”</p>
+            <p>Não usar expressões como “compatível com” ou “melhor visto na resolução...”</p>
 
 
         </div>
@@ -542,11 +544,11 @@ $i++ ?>">
             padrão. Utilizar no máximo 3 famílias de fontes distintas.
 
 
-
             <div class="clear"></div>
             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#exemplo-tipo"
                     aria-expanded="false" aria-controls="exemplo-tipo">
-                <span class="glyphicon glyphicon-console" aria-hidden="true"></span> Veja sugestão para tamanho de fontes
+                <span class="glyphicon glyphicon-console" aria-hidden="true"></span> Veja sugestão para tamanho de
+                fontes
             </button>
 
             <div class="collapse" id="exemplo-tipo">
@@ -574,7 +576,8 @@ $i++ ?>">
         </div>
 
         <div class="text text-center">
-            Sítios de universidades tendem a ser grandes, portanto o sítio deve apresentar um <strong>Mapa de Site</strong> em forma de
+            Sítios de universidades tendem a ser grandes, portanto o sítio deve apresentar um <strong>Mapa de
+                Site</strong> em forma de
             lista hierárquica contento todas ou as principais páginas do sítio.
         </div>
     </div>
@@ -779,7 +782,7 @@ $i++ ?>">
             Utilize convenções comuns da Internet, como por exemplo:
             links sublinhados,
             caixa de busca no canto superior direito,
-           logotipo no canto superior esquerdo,
+            logotipo no canto superior esquerdo,
             logotipo funcionar como link para página inicial,
 
         </div>
@@ -799,7 +802,8 @@ $i++ ?>">
 
         <div class="text ">
             "Ordenar de forma lógica e intuitiva a leitura e tabulação"
-            O desenvolvedor deve navegar pelo sítio apenas pelo teclado (utilzando a tecla tab) a fim de identificar se a
+            O desenvolvedor deve navegar pelo sítio apenas pelo teclado (utilzando a tecla tab) a fim de identificar se
+            a
             hierarquia das informações encontra-se disposta de forma coerente.
 
         </div>
@@ -862,7 +866,8 @@ $i++ ?>">
         </div>
 
         <div class="text ">
-            Não fornecer arquivos oficiais em formatos de arquivos abertos para edição (.doc, por exemplo), optar sempre pelo
+            Não fornecer arquivos oficiais em formatos de arquivos abertos para edição (.doc, por exemplo), optar sempre
+            pelo
             PDF.
             Ao utilizar arquivos em PDF, fornecer o conteúdo do documento em formatos acessíveis, isto é, PDFs também
             devem ter sua alternativa em HTML.
@@ -993,7 +998,7 @@ $i++ ?>">
 
             <div class="clear"></div>
             <div class="col-md-12 row">
-                <a href="javascript:alert('Em desenvolvimento')" class="btn btn-default text-left full-width"
+                <a href="template/" class="btn btn-default text-left full-width"
                    role="button">
                     <span class=" glyphicon glyphicon-new-window" aria-hidden="true"></span> Veja o template funcionando
                 </a>
@@ -1001,7 +1006,7 @@ $i++ ?>">
 
             <div class="clear"></div>
             <div class="col-md-12 row">
-                <a href="template/" class="btn btn-default  text-left full-width" role="button">
+                <a href="https://github.com/lucassandes/template-universidade" class="btn btn-default  text-left full-width" role="button">
                     <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Faça o download do
                     template
                 </a>
@@ -1010,7 +1015,7 @@ $i++ ?>">
 
 
         <div class=" col-sm-5 vcenter">
-            <img src="imgs/placeholder.png" class="img-responsive center-block" alt="Screenshot do template"/>
+            <img src="imgs/print-tema.jpg" class="img-responsive img-thumbnail center-block" alt="Screenshot do template"/>
 
 
         </div>
