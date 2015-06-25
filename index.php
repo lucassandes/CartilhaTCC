@@ -1015,7 +1015,7 @@ $i++ ?>">
 
 
         <div class=" col-sm-5 vcenter">
-            <a href="template/"  target="_blank" title="Veja template funcionando"/> <img src="imgs/print-tema.jpg" class="img-responsive img-thumbnail center-block" alt="Screenshot do template"/></a>
+            <a href="template/"  target="_blank" title="Veja template funcionando"> <img src="imgs/print-tema.jpg" class="img-responsive img-thumbnail center-block" alt="Screenshot do template"/></a>
 
 
         </div>
