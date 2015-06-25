@@ -31,21 +31,21 @@
 <header>
     <div id="accessibility-bar-info">
         <div class="container">
-            <ul id="accessibility-info" class="hidden-sm hidden-xs">
+            <ul id="accessibility-info" >
                 <li>
                     <a accesskey="1" href="#acessibilidade-usabilidade">
-                        Ir para o conteúdo <span class="access-key" >1</span>
+                        Ir para o conteúdo <span class="access-key hidden-sm hidden-xs" >1</span>
                     </a>
                 </li>
 
                 <li class="last-item">
                     <a accesskey="2" href="#referencias">
-                        Ir para o rodapé <span class="access-key">2</span>
+                        Ir para o rodapé <span class="access-key hidden-sm hidden-xs">2</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="javascript:swapStyleSheet()" title="Alto Contraste" accesskey="3">Alto Contraste <span class="access-key">3</span></a>
+                    <a href="javascript:swapStyleSheet()" title="Alto Contraste" accesskey="3">Alto Contraste <span class="access-key hidden-sm hidden-xs">3</span></a>
                 </li>
 
 
@@ -998,7 +998,7 @@ $i++ ?>">
 
             <div class="clear"></div>
             <div class="col-md-12 row">
-                <a href="template/" class="btn btn-default text-left full-width"
+                <a href="template/" target="_blank" class="btn btn-default text-left full-width"
                    role="button">
                     <span class=" glyphicon glyphicon-new-window" aria-hidden="true"></span> Veja o template funcionando
                 </a>
@@ -1015,7 +1015,7 @@ $i++ ?>">
 
 
         <div class=" col-sm-5 vcenter">
-            <img src="imgs/print-tema.jpg" class="img-responsive img-thumbnail center-block" alt="Screenshot do template"/>
+            <a href="template/"  target="_blank" title="Veja template funcionando"/> <img src="imgs/print-tema.jpg" class="img-responsive img-thumbnail center-block" alt="Screenshot do template"/></a>
 
 
         </div>

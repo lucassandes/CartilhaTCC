@@ -56,7 +56,7 @@ h2 {
 
 
 #accessibility-bar-info {
-  height: 3em;
+  min-height: 3em;
   background-color: @light-bg;
   font-size: 14px;
   //border-radius: 4px;
@@ -510,10 +510,26 @@ h2 {
 
 #s6:extend(#s1 all) {
   .subtitle {
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: 20px;
   }
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+  #s6 {
+    .subtitle {
+      font-size: 45px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {  }
 
 #s7:extend(#s2 all) {
   .well {
